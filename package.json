@@ -40,7 +40,9 @@
     ]
   },
   "jest": {
-    "coverageReporters": ["text-summary"]
+    "coverageReporters": [
+      "text-summary"
+    ]
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.6",
