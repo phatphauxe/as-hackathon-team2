@@ -1,4 +1,5 @@
-import { AS } from ".";
+import { AS, Pano } from ".";
+import { PTRLayer, PTRMarker, PTRVirtualRunner } from "./tillman.models";
 
 export interface ASReducerState {
 	AS: AS | null;
@@ -9,7 +10,15 @@ export interface AppDataReducerState {
 	data: string[] | null;
 }
 
+export interface PTRReducerState {
+	panelOpen: boolean;
+	layers: PTRLayer[] | null;
+	markers: PTRMarker[] | null;
+	virtualRunners: PTRVirtualRunner[] | null;
+	activePano: Pano | null;
+}
 export interface State {
 	appData: AppDataReducerState,
-	aerialSphereData: ASReducerState
+	aerialSphereData: ASReducerState,
+	ptrData: PTRReducerState,
 }

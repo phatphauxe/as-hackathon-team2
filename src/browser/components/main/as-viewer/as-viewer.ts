@@ -1,9 +1,9 @@
 import { Action } from 'redux';
-import { State } from '../../../assets/models/store.model';
-import Selectors from '../../../content/store/selectors';
-import { ActionModels } from '../../../content/store/actions';
+import { State } from '../../../../assets/models/store.model';
+import Selectors from '../../../../content/store/selectors';
+import { ActionModels } from '../../../../content/store/actions';
 import ASViewerComponent, { StateProps, DispatchProps } from './as-viewer.component';
-import { AS } from '../../../assets/models';
+import { AS } from '../../../../assets/models';
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state:State):StateProps => {
