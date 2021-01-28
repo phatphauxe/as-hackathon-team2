@@ -33,6 +33,7 @@ const MainPage = (props: MainPageProps) => {
 		<div className={'main-page-container'}>
 			<SidePanel />
 			<ASViewer />
+			<div className="sharethis-inline-share-buttons"></div>
 		</div>
 	);
 }
