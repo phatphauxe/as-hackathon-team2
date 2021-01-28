@@ -103,7 +103,7 @@
             "id": 302,
             "lat":33.438826764409434,
             "lng":-111.93925996087566,
-            "name": "<p><h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p></p>",
+            "name": "<h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -111,7 +111,7 @@
             "id": 303,
             "lat":33.435250505601644,
             "lng":-111.94324616887525,
-            "name": "<p><h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p></p>",
+            "name": "<h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -119,7 +119,7 @@
             "id": 304,
             "lat":33.425943245482244,
             "lng":-111.93222303199929,
-            "name": "<p><h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p></p>",
+            "name": "<h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -127,7 +127,7 @@
             "id": 305,
             "lat":33.42714155185951,
             "lng":-111.92837054778093,
-            "name": "<p>Start Medical Station</p>",
+            "name": "<h3>Start Medical Station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -135,7 +135,7 @@
             "id": 306,
             "lat":33.43523937572557,
             "lng":-111.9259643905395,
-            "name": "<p>Aid Station 1</p>",
+            "name": "<h3>Aid Station</h3><p>Water and electrolyte drinks will be available at each mile marker aid station.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -143,7 +143,7 @@
             "id": 307,
             "lat":33.43869434911048,
             "lng":-111.9394572777661,
-            "name": "<p>Aid Station 2</p>",
+            "name": "<h3>Aid Station</h3><p>Water and electrolyte drinks will be available at each mile marker aid station.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -151,7 +151,7 @@
             "id": 308,
             "lat":33.43531505738987,
             "lng":-111.94332728569164,
-            "name": "<p>Aid Station 3</p>",
+            "name": "<h3>Aid Station</h3><p>Water and electrolyte drinks will be available at each mile marker aid station.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -159,7 +159,7 @@
             "id": 309,
             "lat":33.426451703144984,
             "lng":-111.93214289285186,
-            "name": "<p>Kids Pick Zone</p>",
+            "name": "<h3>Kids Pick Zone</h3><p>After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pick Up Zone located east of the finish line.</p><p>Children will be released to a parent/guardian wearing the wristband that exactly matches the number on the child’s wristband.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -167,7 +167,7 @@
             "id": 310,
             "lat":33.426667960061074,
             "lng":-111.93205097489964,
-            "name": "<p>Refreshments</p>",
+            "name": "<h3>Refreshments</h3><p>Enjoy ice cold water, Gatorade and chocolate milk along with post-race snacks courtesy of our sponsors! </p>",
             "icon": "poi",
             "style": ""
         },
@@ -175,7 +175,7 @@
             "id": 311,
             "lat":33.428345867667055,
             "lng":-111.92956866277014,
-            "name": "<p>Kids Corner</p>",
+            "name": "<h3>Kids Corner</h3><p>Families with kids 12 and under can also enjoy the interactive Kids Corner in the Expo with inflatables, an obstacle course, and crafts.</p><p>Children cannot not be left unsupervised in the Kids Corner; no drop-off for adult race participants allowed.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -183,7 +183,7 @@
             "id": 312,
             "lat":33.427614731973776,
             "lng":-111.92950326928616,
-            "name": "<p>Expo Area</p>",
+            "name": "<h3>Expo Area</h3><p>Visit the Pat’s Run Expo before and after the race where over 40 local and national vendors will provide food and drink samples, giveaways and more.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -191,7 +191,7 @@
             "id": 313,
             "lat":33.42650839777694,
             "lng":-111.92950809082546,
-            "name": "<p>Reuinion Sqauare</p>",
+            "name": "<h3>Reunion Sqauare</h3><p>Make arrangements to reunite with family and friends after the race in Reunion Square, located south of the Race Expo.</p><p>Plan to meet under the letter of the alphabet that corresponds to your last name, team name, company name, etc. </p>",
             "icon": "poi",
             "style": ""
         },
@@ -199,7 +199,7 @@
             "id": 313,
             "lat":33.425039639253995,
             "lng":-111.93093397304712,
-            "name": "<p>Post Race Party</p>",
+            "name": "<h3>Post Race Party</h3><p>After the race, you can also join us for the Post-Party at Desert Arboretum Park, located just outside the southeast corner of Sun Devil Stadium.</p><p>Finishers 21 years and older *must* present both their ID and race bib to receive a complimentary beer to celebrate Pat’s Run and toast to Pat’s legacy.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -255,7 +255,7 @@
             "id": 107,
             "lat":33.42434431578691,
             "lng":-111.92912920235213,
-            "name": "<p>Head East on 6th Street</p>",
+            "name": "<h3>Head East on 6th Street</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -263,7 +263,7 @@
             "id": 108,
             "lat":33.4245461314973,
             "lng":-111.92632803025087,
-            "name": "<p>Head North on Rural Rd.</p>",
+            "name": "<h3>Head North on Rural Rd.</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -271,7 +271,7 @@
             "id": 109,
             "lat":33.43762414794059,
             "lng":-111.92628980763594,
-            "name": "<p>Head West on Gilbert Rd.</p>",
+            "name": "<h3>Head West on Gilbert Rd.</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -279,7 +279,7 @@
             "id": 110,
             "lat":33.436544350729704,
             "lng":-111.93004524628273,
-            "name": "<p>Head North on College Ave.</p>",
+            "name": "<h3>Head North on College Ave.</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -287,7 +287,7 @@
             "id": 111,
             "lat":33.440199908662194,
             "lng":-111.9308550071963,
-            "name": "<p>Head West on Curry Rd.</p>",
+            "name": "<h3>Head West on Curry Rd.</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -295,7 +295,7 @@
             "id": 112,
             "lat":33.43833264392396,
             "lng":-111.94166949086568,
-            "name": "<p>Head South on Lake View Dr.</p>",
+            "name": "<h3>Head South on Lake View Dr.</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -303,7 +303,7 @@
             "id": 113,
             "lat":33.43833264392396,
             "lng":-111.94166949086568,
-            "name": "<p>Head East toward Mill Ave. Bridge</p>",
+            "name": "<h3>Head East toward Mill Ave. Bridge</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -311,7 +311,7 @@
             "id": 114,
             "lat":33.43616464197399,
             "lng":-111.94302438804132,
-            "name": "<p>Head South over Mill Ave. Bridge</p>",
+            "name": "<h3>Head South over Mill Ave. Bridge</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -319,7 +319,7 @@
             "id": 115,
             "lat":33.42968791769232,
             "lng":-111.94007838952713,
-            "name": "<p>Head West on Rio Salado Pkwy</p>",
+            "name": "<h3>Head West on Rio Salado Pkwy</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -327,7 +327,7 @@
             "id": 116,
             "lat":33.42957423919019,
             "lng":-111.94104423744922,
-            "name": "<p>Turn Around, Head east on Rio Salado Pkwy</p>",
+            "name": "<h3>Turn Around, Head east on Rio Salado Pkwy</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -335,7 +335,7 @@
             "id": 117,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head South following edge of parking lot</p>",
+            "name": "<h3>Head South following edge of parking lot</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -343,7 +343,7 @@
             "id": 118,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head South following edge of parking lot</p>",
+            "name": "<h3>Head South following edge of parking lot</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -351,7 +351,7 @@
             "id": 119,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head east toward entrance of Stadium</p>",
+            "name": "<h3>Head east toward entrance of Stadium</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -359,7 +359,7 @@
             "id": 120,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head South into the Stadium</p>",
+            "name": "<h3>Head South into the Stadium</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -367,7 +367,7 @@
             "id": 201,
             "lat":33.42784625752619,
             "lng":-111.92924555556249,
-            "name": "<p>Start</p>",
+            "name": "<h3>Kids Run Start Line</h3><p>Pat’s Run Kids Run is a 0.42 mile, noncompetitive run/walk for children 12 years and under.</p><p>The Kids Run starts at 10 a.m. just south of the Kids Corner on Packard Drive.</p>",
             "icon": "whats_here",
             "style": ""
         },
@@ -375,7 +375,7 @@
             "id": 202,
             "lat":33.43531505738987,
             "lng":-111.94332728569164,
-            "name": "<p>Finish</p>",
+            "name": "<h3>KidS Run Finish Line</h3><p>Congrats! Your little ones have made it!</p><p>After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pickup Zone located east of the finish line.</p>",
             "icon": "whats_here",
             "style": ""
         },
@@ -383,7 +383,7 @@
             "id": 203,
             "lat":33.428660906945105,
             "lng":-111.92936752569398,
-            "name": "<p>Head West on Rio Salado Pkwy</p>",
+            "name": "<h3>Head West on Rio Salado Pkwy</h3>",
             "icon": "whats_here",
             "style": ""
         },
@@ -391,7 +391,7 @@
             "id": 204,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head South following edge of parking lot</p>",
+            "name": "<h3>Head South following edge of parking lot</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -399,7 +399,7 @@
             "id": 205,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head South following edge of parking lot</p>",
+            "name": "<h3>Head South following edge of parking lot</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -407,7 +407,7 @@
             "id": 206,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head east toward entrance of Stadium</p>",
+            "name": "<h3>Head east toward entrance of Stadium</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -415,7 +415,7 @@
             "id": 207,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
-            "name": "<p>Head South into the Stadium</p>",
+            "name": "<h3>Head South into the Stadium</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -423,7 +423,7 @@
             "id": 208,
             "lat":33.426451703144984,
             "lng":-111.93214289285186,
-            "name": "<p>Kids Pick Zone</p>",
+            "name": "<h3>Kids Pick Zone</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -431,7 +431,7 @@
             "id": 401,
             "lat":33.44258105950377,
             "lng":-111.95663895242377,
-            "name": "<p>Metro Stop</p>",
+            "name": "<h3>Metro Stop</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -439,7 +439,7 @@
             "id": 402,
             "lat":33.43808785363191,
             "lng":-111.94659673320436,
-            "name": "<p>Metro Stop</p>",
+            "name": "<h3>Metro Stop</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -447,7 +447,7 @@
             "id": 403,
             "lat":33.427570092309104,
             "lng":-111.9410298893588,
-            "name": "<p>Metro Stop</p>",
+            "name": "<h3>Metro Stop</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -455,7 +455,7 @@
             "id": 404,
             "lat":33.426115083563865,
             "lng":-111.9357108652093,
-            "name": "<p>Metro Stop</p>",
+            "name": "<h3>Metro Stop</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -463,7 +463,7 @@
             "id": 405,
             "lat":33.42075006874698,
             "lng":-111.92688117664329,
-            "name": "<p>Metro Stop</p>",
+            "name": "<h3>Metro Stop</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -471,7 +471,7 @@
             "id": 406,
             "lat":33.42075006874698,
             "lng":-111.92688117664329,
-            "name": "<p>Metro Stop</p>",
+            "name": "<h3>Metro Stop</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -479,7 +479,7 @@
             "id": 407,
             "lat":33.414806749716554,
             "lng":-111.91686707660256,
-            "name": "<p>Metro Stop & Park & Ride</p>",
+            "name": "<h3>Metro Stop & Park & Ride</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -487,7 +487,7 @@
             "id": 408,
             "lat":33.414808379080654,
             "lng":-111.9083460580182,
-            "name": "<p>Metro Stop & Park & Ride</p>",
+            "name": "<h3>Metro Stop & Park & Ride</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -495,7 +495,7 @@
             "id": 409,
             "lat":33.414826276978424,
             "lng":-111.90391330071209,
-            "name": "<p>Metro Stop</p>",
+            "name": "<h3>Metro Stop</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -503,7 +503,7 @@
             "id": 410,
             "lat":33.414906502220184,
             "lng":-111.88868791986494,
-            "name": "<p>Metro Stop & Park & Ride</p>",
+            "name": "<h3>Metro Stop & Park & Ride</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -511,7 +511,7 @@
             "id": 411,
             "lat":33.42898637091698,
             "lng":-111.92636983295553,
-            "name": "<p>Road Closed 5:00AM</p>",
+            "name": "<h3>Road Closed 5:00AM</h3>",
             "icon": "whats_here",
             "style": ""
         },
@@ -519,7 +519,7 @@
             "id": 412,
             "lat":33.43622840009458,
             "lng":-111.92630345623618,
-            "name": "<p>Road Closed 5:00AM</p>",
+            "name": "<h3>Road Closed 5:00AM</h3>",
             "icon": "whats_here",
             "style": ""
         },
@@ -527,7 +527,7 @@
             "id": 413,
             "lat":33.437813153485024,
             "lng":-111.94358896008752,
-            "name": "<p>Road Closed 5:00AM</p>",
+            "name": "<h3>Road Closed 5:00AM</h3>",
             "icon": "whats_here",
             "style": ""
         },
@@ -535,7 +535,7 @@
             "id": 414,
             "lat":33.42981314319689,
             "lng":-111.9399893107558,
-            "name": "<p>Road Closed 5:00AM</p>",
+            "name": "<h3>Road Closed 5:00AM</h3>",
             "icon": "whats_here",
             "style": ""
         },
@@ -543,7 +543,7 @@
             "id": 415,
             "lat":33.42203322202861,
             "lng":-111.92625040154154,
-            "name": "<p>Road Closed 5:00AM</p>",
+            "name": "<h3>Road Closed 5:00AM</h3>",
             "icon": "whats_here",
             "style": ""
         },
@@ -551,7 +551,7 @@
             "id": 415,
             "lat":33.42926948705878,
             "lng":-111.92689777465908,
-            "name": "<p>Handicap / Bike Parking</p>",
+            "name": "<h3>Handicap / Bike Parking</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -559,7 +559,7 @@
             "id": 416,
             "lat":33.4288835387473,
             "lng":-111.94290735263456,
-            "name": "<p>Parking</p>",
+            "name": "<h3>Parking</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -567,7 +567,7 @@
             "id": 417,
             "lat":33.422696089528934,
             "lng":-111.92426066144711,
-            "name": "<p>Parking</p>",
+            "name": "<h3>Parking</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -575,7 +575,7 @@
             "id": 418,
             "lat":33.42507282580828,
             "lng":-111.9258788989759,
-            "name": "<p>Parking</p>",
+            "name": "<h3>Parking</h3>",
             "icon": "poi",
             "style": ""
         },
@@ -583,7 +583,7 @@
             "id": 419,
             "lat":33.42287280092519,
             "lng":-111.93141791870578,
-            "name": "<p>Parking</p>",
+            "name": "<h3>Parking</h3>",
             "icon": "poi",
             "style": ""
         } 
