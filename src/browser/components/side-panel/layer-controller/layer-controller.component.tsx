@@ -1,5 +1,5 @@
 import React from 'react';
-import { ApiLayer, ApiMarker, AS, Pano, SphereData } from '../../../../assets/models';
+import { ApiLayer, ApiMarker, AS, Pano } from '../../../../assets/models';
 import { PTRLayer, PTRMarker } from '../../../../assets/models/tillman.models';
 
 export interface StateProps {
@@ -14,6 +14,7 @@ export interface ControllerLayer {
 	active:boolean,
 	canDisable:boolean,
 }
+
 export type LayerControllerProps = StateProps;
 
 const LayerController = (props:LayerControllerProps) => {
@@ -25,7 +26,7 @@ const LayerController = (props:LayerControllerProps) => {
 			setControllerLayers(layers.map((layer:PTRLayer) => {
 				return {
 					layer,
-					active: layer.name === "feature_race",
+					active: layer.name === "Feature Race",
 					canDisable: false
 				} as ControllerLayer;
 			}));
@@ -35,7 +36,7 @@ const LayerController = (props:LayerControllerProps) => {
 	React.useEffect(() => {
 		if(controllerLayers && controllerLayers.length){
 			(async () => {
-					const layer = await AS?.getLayer(controllerLayers[0].layer.id);
+					const layer = await AS?.getLayer(controllerLayers[0].layer.name);
 					if(!layer && !layersLoaded){
 						AS?.sendData({layers: controllerLayers.map(
 							(controllerLayer:ControllerLayer):ApiLayer => {
@@ -43,8 +44,8 @@ const LayerController = (props:LayerControllerProps) => {
 									name: controllerLayer.layer.name, 
 									visible: controllerLayer.layer.name === 'Feature Race', 
 									markers: controllerLayer.layer.markers.map(
-										(marker:string) => {
-											const foundMarker = markers?.find((m:PTRMarker) => { return `${m.id}` === marker});
+										(marker:number) => {
+											const foundMarker = markers?.find((m:PTRMarker) => { return m.id === marker});
 											return foundMarker;
 										}).filter((marker:PTRMarker | undefined) => !!marker) as ApiMarker[]
 							} as ApiLayer })
@@ -60,14 +61,14 @@ const LayerController = (props:LayerControllerProps) => {
 
 	const toggleLayers = (layerID:string) => {
 		controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
-			AS?.setLayerVisibility(controllerLayer.layer.id, false);
+			AS?.setLayerVisibility(controllerLayer.layer.name, false);
 		});
 		
 		AS?.setLayerVisibility(layerID, true);
 
 		if(controllerLayers){
 		setControllerLayers([...controllerLayers.map((controllerLayer:ControllerLayer):ControllerLayer => {
-			if(controllerLayer.layer.id === layerID){
+			if(controllerLayer.layer.name === layerID){
 				return {...controllerLayer, active: true} as ControllerLayer;
 			}
 			else {
@@ -84,4 +85,4 @@ const LayerController = (props:LayerControllerProps) => {
 	)
 };
 
-export default LayerController
+export default LayerController;

@@ -1,7 +1,6 @@
 {
     "layers": [
         {
-            "feature_race": {
                 "name": "Feature Race",
                 "visible": true,
                 "markers": [
@@ -26,10 +25,10 @@
                     119,
                     120
                 ]
-            }
-        },
+            },
+
         {
-            "kids_race": {
+
                 "name": "Kid's Race",
                 "visible": false,
                 "markers": [
@@ -42,10 +41,9 @@
                     207,
                     208
                 ]
-            }
+
         },
-        {
-            "common_info": {
+    {
                 "name": "Common Information",
                 "visible": false,
                 "markers": [
@@ -63,10 +61,9 @@
                     312,
                     313
                 ]
-            }
-        },
+            },
+ 
         {
-            "parking_map": {
                 "name": "Parking Map",
                 "visible": false,
                 "markers": [
@@ -79,10 +76,10 @@
                     407,
                     408,
                     409,
-                    401
+                    410
                 ]
             }
-        }
+
     ],
     "markers": [
         { 

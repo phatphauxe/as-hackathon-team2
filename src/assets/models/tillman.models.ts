@@ -9,9 +9,9 @@ export interface PTRVirtualRunner {
 }
 
 export interface PTRLayer {
-	id:string,
 	name:string,
-	markers: string[]
+	visible: string,
+	markers: number[]
 }
 
 export interface PTRMarker extends ApiMarker {

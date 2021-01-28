@@ -1,6 +1,7 @@
 import React from 'react';
 //import toggle_icon from '../../../../assets/icons/toggle_icon.svg';
 import { AS } from '../../../assets/models';
+import LayerController from './layer-controller/layer-controller';
 import './side-panel.styles.scss';
 
 export interface StateProps {
@@ -29,7 +30,7 @@ const SidePanel = (props: SidePanelProps) => {
 					<div className={"toggle_icon"} />
 					{/* <img src={toggle_icon} height={'50px'} width={'50px'} /> */}
 				</div>
-				SIDE PANEL COMPONENTS
+				<LayerController />
 			</div>
 		</div>
 	)
