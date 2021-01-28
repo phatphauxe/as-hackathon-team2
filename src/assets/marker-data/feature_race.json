@@ -1,0 +1,166 @@
+{
+    "name": "feature race",
+    "visible": true,
+    "markers": [
+        { 
+            "id": 101,
+            "lat":33.43544316832928,
+            "lng":-111.925908114897,
+            "name": "<p>Mile Marker 1</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 102,
+            "lat":33.43880499699657,
+            "lng":-111.93949417096043,
+            "name": "<p>Mile Marker 2</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 103,
+            "lat":33.43532936822106,
+            "lng":-111.94295274811844,
+            "name": "<p>Mile Marker 3</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 104,
+            "lat":33.428067023136286,
+            "lng":-111.93343475769305,
+            "name": "<p>Mile Marker 4</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 105,
+            "lat":33.42751428022102,
+            "lng":-111.92933798398431,
+            "name": "<p>Start</p>",
+            "layers": "feature_race",
+            "icon": "whats_here"
+        },
+        {
+            "id": 106,
+            "lat":33.43531505738987,
+            "lng":-111.94332728569164,
+            "name": "<p>Finish</p>",
+            "layers": "feature_race",
+            "icon": "whats_here"
+        },
+        {
+            "id": 107,
+            "lat":33.42434431578691,
+            "lng":-111.92912920235213,
+            "name": "<p>Head East on 6th Street</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 108,
+            "lat":33.4245461314973,
+            "lng":-111.92632803025087,
+            "name": "<p>Head North on Rural Rd.</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 109,
+            "lat":33.43762414794059,
+            "lng":-111.92628980763594,
+            "name": "<p>Head West on Gilbert Rd.</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 110,
+            "lat":33.436544350729704,
+            "lng":-111.93004524628273,
+            "name": "<p>Head North on College Ave.</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 111,
+            "lat":33.440199908662194,
+            "lng":-111.9308550071963,
+            "name": "<p>Head West on Curry Rd.</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 112,
+            "lat":33.43833264392396,
+            "lng":-111.94166949086568,
+            "name": "<p>Head South on Lake View Dr.</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 113,
+            "lat":33.43833264392396,
+            "lng":-111.94166949086568,
+            "name": "<p>Head East toward Mill Ave. Bridge</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 114,
+            "lat":33.43616464197399,
+            "lng":-111.94302438804132,
+            "name": "<p>Head South over Mill Ave. Bridge</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 115,
+            "lat":33.42968791769232,
+            "lng":-111.94007838952713,
+            "name": "<p>Head West on Rio Salado Pkwy</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 116,
+            "lat":33.42957423919019,
+            "lng":-111.94104423744922,
+            "name": "<p>Turn Around, Head east on Rio Salado Pkwy</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 117,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South following edge of parking lot</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 118,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South following edge of parking lot</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 119,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head east toward entrance of Stadium</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        },
+        {
+            "id": 120,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South into the Stadium</p>",
+            "layers": "feature_race",
+            "icon": "poi"
+        }
+    ]
+}
