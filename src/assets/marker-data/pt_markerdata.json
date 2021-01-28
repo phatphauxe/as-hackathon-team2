@@ -64,6 +64,24 @@
                     313
                 ]
             }
+        },
+        {
+            "parking_map": {
+                "name": "Parking Map",
+                "visible": false,
+                "markers": [
+                    401,
+                    402,
+                    403,
+                    404,
+                    405,
+                    406,
+                    407,
+                    408,
+                    409,
+                    401
+                ]
+            }
         }
     ],
     "markers": [
@@ -402,6 +420,86 @@
             "name": "<p>Kids Pick Zone</p>",
             "icon": "poi",
             "style": ""
-        }
+        },
+        {
+            "id": 401,
+            "lat":33.44258105950377,
+            "lng":-111.95663895242377,
+            "name": "<p>Metro Stop</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 402,
+            "lat":33.43808785363191,
+            "lng":-111.94659673320436,
+            "name": "<p>Metro Stop</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 403,
+            "lat":33.427570092309104,
+            "lng":-111.9410298893588,
+            "name": "<p>Metro Stop</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 404,
+            "lat":33.426115083563865,
+            "lng":-111.9357108652093,
+            "name": "<p>Metro Stop</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 405,
+            "lat":33.42075006874698,
+            "lng":-111.92688117664329,
+            "name": "<p>Metro Stop</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 406,
+            "lat":33.42075006874698,
+            "lng":-111.92688117664329,
+            "name": "<p>Metro Stop</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 407,
+            "lat":33.414806749716554,
+            "lng":-111.91686707660256,
+            "name": "<p>Metro Stop & Park & Ride</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 408,
+            "lat":33.414808379080654,
+            "lng":-111.9083460580182,
+            "name": "<p>Metro Stop & Park & Ride</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 409,
+            "lat":33.414826276978424,
+            "lng":-111.90391330071209,
+            "name": "<p>Metro Stop</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 410,
+            "lat":33.414906502220184,
+            "lng":-111.88868791986494,
+            "name": "<p>Metro Stop & Park & Ride</p>",
+            "icon": "poi",
+            "style": ""
+        }        
     ]
 }
