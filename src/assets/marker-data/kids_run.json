@@ -1,7 +1,7 @@
 {
     "name": "kids run",
     "visible": true,
-    "marlers": [
+    "markers": [
         { 
             "id": 201,
             "lat":33.42784625752619,

@@ -1,0 +1,365 @@
+{
+    "layers": [
+        {
+            "feature_race": {
+                "name": "Feature Race",
+                "visible": true,
+                "markers": [
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120
+                ]
+            }
+        },
+        {
+            "kids_race": {
+                "name": "Kid's Race",
+                "visible": false,
+                "markers": [
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208
+                ]
+            }
+        },
+        {
+            "common_info": {
+                "name": "Common Information",
+                "visible": false,
+                "markers": [
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313
+                ]
+            }
+        }
+    ],
+    "markers": [
+        { 
+            "id": 301,
+            "lat":33.43538109989339,
+            "lng":-111.92572751616524,
+            "name": "<p>Medical Station 1</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 302,
+            "lat":33.438826764409434,
+            "lng":-111.93925996087566,
+            "name": "<p>Medical Station 2</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 303,
+            "lat":33.435250505601644,
+            "lng":-111.94324616887525,
+            "name": "<p>Medical Station 3</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 304,
+            "lat":33.425943245482244,
+            "lng":-111.93222303199929,
+            "name": "<p>Finish Medical Station</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 305,
+            "lat":33.42714155185951,
+            "lng":-111.92837054778093,
+            "name": "<p>Start Medical Station</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 306,
+            "lat":33.43523937572557,
+            "lng":-111.9259643905395,
+            "name": "<p>Aid Station 1</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 307,
+            "lat":33.43869434911048,
+            "lng":-111.9394572777661,
+            "name": "<p>Aid Station 2</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 308,
+            "lat":33.43531505738987,
+            "lng":-111.94332728569164,
+            "name": "<p>Aid Station 3</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 309,
+            "lat":33.426451703144984,
+            "lng":-111.93214289285186,
+            "name": "<p>Kids Pick Zone</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 310,
+            "lat":33.426667960061074,
+            "lng":-111.93205097489964,
+            "name": "<p>Refreshments</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 311,
+            "lat":33.428345867667055,
+            "lng":-111.92956866277014,
+            "name": "<p>Kids Corner</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 312,
+            "lat":33.427614731973776,
+            "lng":-111.92950326928616,
+            "name": "<p>Expo Area</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 313,
+            "lat":33.42650839777694,
+            "lng":-111.92950809082546,
+            "name": "<p>Reuinion Sqauare</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 313,
+            "lat":33.425039639253995,
+            "lng":-111.93093397304712,
+            "name": "<p>Post Race Party</p>",
+            "icon": "poi"
+        },
+        { 
+            "id": 101,
+            "lat":33.43544316832928,
+            "lng":-111.925908114897,
+            "name": "<p>Mile Marker 1</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 102,
+            "lat":33.43880499699657,
+            "lng":-111.93949417096043,
+            "name": "<p>Mile Marker 2</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 103,
+            "lat":33.43532936822106,
+            "lng":-111.94295274811844,
+            "name": "<p>Mile Marker 3</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 104,
+            "lat":33.428067023136286,
+            "lng":-111.93343475769305,
+            "name": "<p>Mile Marker 4</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 105,
+            "lat":33.42751428022102,
+            "lng":-111.92933798398431,
+            "name": "<p>Start</p>",
+            "icon": "whats_here"
+        },
+        {
+            "id": 106,
+            "lat":33.43531505738987,
+            "lng":-111.94332728569164,
+            "name": "<p>Finish</p>",
+            "icon": "whats_here"
+        },
+        {
+            "id": 107,
+            "lat":33.42434431578691,
+            "lng":-111.92912920235213,
+            "name": "<p>Head East on 6th Street</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 108,
+            "lat":33.4245461314973,
+            "lng":-111.92632803025087,
+            "name": "<p>Head North on Rural Rd.</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 109,
+            "lat":33.43762414794059,
+            "lng":-111.92628980763594,
+            "name": "<p>Head West on Gilbert Rd.</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 110,
+            "lat":33.436544350729704,
+            "lng":-111.93004524628273,
+            "name": "<p>Head North on College Ave.</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 111,
+            "lat":33.440199908662194,
+            "lng":-111.9308550071963,
+            "name": "<p>Head West on Curry Rd.</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 112,
+            "lat":33.43833264392396,
+            "lng":-111.94166949086568,
+            "name": "<p>Head South on Lake View Dr.</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 113,
+            "lat":33.43833264392396,
+            "lng":-111.94166949086568,
+            "name": "<p>Head East toward Mill Ave. Bridge</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 114,
+            "lat":33.43616464197399,
+            "lng":-111.94302438804132,
+            "name": "<p>Head South over Mill Ave. Bridge</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 115,
+            "lat":33.42968791769232,
+            "lng":-111.94007838952713,
+            "name": "<p>Head West on Rio Salado Pkwy</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 116,
+            "lat":33.42957423919019,
+            "lng":-111.94104423744922,
+            "name": "<p>Turn Around, Head east on Rio Salado Pkwy</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 117,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South following edge of parking lot</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 118,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South following edge of parking lot</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 119,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head east toward entrance of Stadium</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 120,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South into the Stadium</p>",
+            "icon": "poi"
+        },
+        { 
+            "id": 201,
+            "lat":33.42784625752619,
+            "lng":-111.92924555556249,
+            "name": "<p>Start</p>",
+            "icon": "whats_here"
+        },
+        { 
+            "id": 202,
+            "lat":33.43531505738987,
+            "lng":-111.94332728569164,
+            "name": "<p>Finish</p>",
+            "icon": "whats_here"
+        },
+        { 
+            "id": 203,
+            "lat":33.428660906945105,
+            "lng":-111.92936752569398,
+            "name": "<p>Head West on Rio Salado Pkwy</p>",
+            "icon": "whats_here"
+        },
+        {
+            "id": 204,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South following edge of parking lot</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 205,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South following edge of parking lot</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 206,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head east toward entrance of Stadium</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 207,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "<p>Head South into the Stadium</p>",
+            "icon": "poi"
+        },
+        {
+            "id": 208,
+            "lat":33.426451703144984,
+            "lng":-111.93214289285186,
+            "name": "<p>Kids Pick Zone</p>",
+            "icon": "poi"
+        }
+    ]
+}
