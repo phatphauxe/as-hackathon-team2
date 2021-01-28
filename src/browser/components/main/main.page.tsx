@@ -1,5 +1,6 @@
 import React  from 'react';
 import { AS, Pano } from '../../../assets/models';
+import SidePanel from '../side-panel/side-panel';
 import ASViewer from './as-viewer/as-viewer';
 import './main.styles.scss';
 
@@ -9,7 +10,7 @@ export interface StateProps {
 }
 
 export interface DispatchProps {
-	loadAllPTRData: (activePano: Pano) => void;
+	loadAllPTRData: () => void;
 }
 
 export type MainPageProps = StateProps & DispatchProps; 
@@ -18,16 +19,19 @@ const MainPage = (props: MainPageProps) => {
 	const { AS, activePano, loadAllPTRData } = props;
 
 	React.useEffect(() => {
-		(async () => {
-			if(AS && !activePano){
-				const activePano = await AS.getActivePano();
-				loadAllPTRData(activePano);
-			}
-		})()
+		
+		if(AS && activePano){
+				
+			loadAllPTRData();
+		}
+			
+			
+	
 	}, [AS, loadAllPTRData, activePano]);
 
 	return (
 		<div className={'main-page-container'}>
+			<SidePanel />
 			<ASViewer />
 		</div>
 	);

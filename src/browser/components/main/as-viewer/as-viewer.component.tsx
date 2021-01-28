@@ -1,7 +1,8 @@
 import React from 'react';
-import {AS, SphereData } from '../../../../assets/models';
+import {AS, Pano, SphereData } from '../../../../assets/models';
 import {loadViewer} from '../../../../content/http';
 import { ViewerENV } from '../../../../content/http/loadViewer/loadViewer';
+import { selectActivePano } from '../../../../content/store/selectors/ptrData.selector';
 import './as-viewer.styles.scss';
 
 export interface StateProps {
@@ -12,6 +13,7 @@ export interface StateProps {
 export interface DispatchProps {
 	setAerialSphere: (aerialSphere:AS) => void;
 	setAppLoaded: () => void;
+	setActivePano: (activePano:Pano) => void;
 }
 
 export type ASViewerProps = StateProps & DispatchProps;
@@ -23,7 +25,7 @@ declare global {
 
 /// This loads the viewer and provides access to the AerialSphere api
 const ASViewer = (props:ASViewerProps) => {
-	const { AS, appLoaded, setAerialSphere, setAppLoaded } = props;
+	const { AS, appLoaded, setAerialSphere, setAppLoaded, setActivePano } = props;
 	
 	React.useEffect(() => {
 		if(appLoaded){
@@ -39,6 +41,7 @@ const ASViewer = (props:ASViewerProps) => {
 	React.useEffect(() => {
 		if(AS){
 			AS.openPanoramaById(15184);
+			(async () => { setActivePano(await AS.getActivePano())})()
 			AS.setWidgetEnabled(["fullScreen", "help", "info", "view_toggle", "navigation"], false);
 			AS.setFovRange(10, 90);	
 		}

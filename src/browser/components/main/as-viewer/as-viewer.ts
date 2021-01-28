@@ -3,7 +3,7 @@ import { State } from '../../../../assets/models/store.model';
 import Selectors from '../../../../content/store/selectors';
 import { ActionModels } from '../../../../content/store/actions';
 import ASViewerComponent, { StateProps, DispatchProps } from './as-viewer.component';
-import { AS } from '../../../../assets/models';
+import { AS, Pano } from '../../../../assets/models';
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state:State):StateProps => {
@@ -20,6 +20,9 @@ const mapDispatchToProps = (dispatch: (action:Action) => void):DispatchProps => 
 		},
 		setAppLoaded: () => {
 			dispatch(ActionModels.App.appLoaded());
+		},
+		setActivePano: (activePano:Pano) => {
+			dispatch(ActionModels.PTR.setActivePano(activePano))
 		}
 	}
 }

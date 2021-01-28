@@ -6,8 +6,8 @@ import { ActionModels } from '../../../content/store';
 import Selectors from '../../../content/store/selectors';
 import MainPage, { StateProps, DispatchProps } from './main.page';
 import viewerData from '../../../assets/marker-data/pt_markerdata.json';
-import { PTRLayer, PTRMarker } from '../../../assets/models/tillman.models';
-//import virtualRunnerData from '';
+import { PTRLayer, PTRMarker, PTRVirtualRunner } from '../../../assets/models/tillman.models';
+import virtualRunners from '../../../assets/marker-data/virtual_runners.json';
 const mapStateToProps = (state:State):StateProps => {
 	return {
 		AS: Selectors.AS.selectAerialSphere(state),
@@ -17,12 +17,11 @@ const mapStateToProps = (state:State):StateProps => {
 
 const mapDispatchToProps = (dispatch:(action: Action) => void):DispatchProps => {
 	return {
-		loadAllPTRData: (activePano: Pano) => {
-			console.log(activePano);
-			dispatch(ActionModels.PTR.setActivePano(activePano));
+		loadAllPTRData: () => {
+			
 			dispatch(ActionModels.PTR.setLayers((viewerData.layers as unknown) as PTRLayer[]));
 			dispatch(ActionModels.PTR.setMarkers((viewerData.markers as unknown) as PTRMarker[]));
-			//dispatch(ActionModels.PTR.setVirtualRunners(virtualRunnerData.data));
+			dispatch(ActionModels.PTR.loadVirtualRunners((virtualRunners.data as unknown) as PTRVirtualRunner[]));
 		}
 	}
 }
