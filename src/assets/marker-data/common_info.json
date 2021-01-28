@@ -1,0 +1,118 @@
+{
+    "name": "common info",
+    "visible": true,
+    "markers": [
+        { 
+            "id": 1,
+            "lat":33.43538109989339,
+            "lng":-111.92572751616524,
+            "name": "<p>Medical Station 1</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 2,
+            "lat":33.438826764409434,
+            "lng":-111.93925996087566,
+            "name": "<p>Medical Station 2</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 3,
+            "lat":33.435250505601644,
+            "lng":-111.94324616887525,
+            "name": "<p>Medical Station 3</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 4,
+            "lat":33.425943245482244,
+            "lng":-111.93222303199929,
+            "name": "<p>Finish Medical Station</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 5,
+            "lat":33.42714155185951,
+            "lng":-111.92837054778093,
+            "name": "<p>Start Medical Station</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 6,
+            "lat":33.43523937572557,
+            "lng":-111.9259643905395,
+            "name": "<p>Aid Station 1</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 7,
+            "lat":33.43869434911048,
+            "lng":-111.9394572777661,
+            "name": "<p>Aid Station 2</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 8,
+            "lat":33.43531505738987,
+            "lng":-111.94332728569164,
+            "name": "<p>Aid Station 3</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 9,
+            "lat":33.426451703144984,
+            "lng":-111.93214289285186,
+            "name": "<p>Kids Pick Zone</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 10,
+            "lat":33.426667960061074,
+            "lng":-111.93205097489964,
+            "name": "<p>Refreshments</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 11,
+            "lat":33.428345867667055,
+            "lng":-111.92956866277014,
+            "name": "<p>Kids Corner</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 12,
+            "lat":33.427614731973776,
+            "lng":-111.92950326928616,
+            "name": "<p>Expo Area</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 13,
+            "lat":33.42650839777694,
+            "lng":-111.92950809082546,
+            "name": "<p>Reuinion Sqauare</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        },
+        {
+            "id": 13,
+            "lat":33.425039639253995,
+            "lng":-111.93093397304712,
+            "name": "<p>Post Race Party</p>",
+            "layers": "common_info",
+            "icon": "poi"
+        }
+    ]
+}
