@@ -76,7 +76,16 @@
                     407,
                     408,
                     409,
-                    410
+                    410,
+                    411,
+                    412,
+                    413,
+                    414,
+                    415,
+                    416,
+                    417,
+                    418,
+                    419
                 ]
             }
 
@@ -86,7 +95,7 @@
             "id": 301,
             "lat":33.43538109989339,
             "lng":-111.92572751616524,
-            "name": "<p>Medical Station 1</p>",
+            "name": "<h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -94,7 +103,7 @@
             "id": 302,
             "lat":33.438826764409434,
             "lng":-111.93925996087566,
-            "name": "<p>Medical Station 2</p>",
+            "name": "<p><h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p></p>",
             "icon": "poi",
             "style": ""
         },
@@ -102,7 +111,7 @@
             "id": 303,
             "lat":33.435250505601644,
             "lng":-111.94324616887525,
-            "name": "<p>Medical Station 3</p>",
+            "name": "<p><h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p></p>",
             "icon": "poi",
             "style": ""
         },
@@ -110,7 +119,7 @@
             "id": 304,
             "lat":33.425943245482244,
             "lng":-111.93222303199929,
-            "name": "<p>Finish Medical Station</p>",
+            "name": "<p><h3>medical station</h3><p>For race day help, look for the volunteers dressed in red shirts with a white cross.</p></p>",
             "icon": "poi",
             "style": ""
         },
@@ -198,7 +207,7 @@
             "id": 101,
             "lat":33.43544316832928,
             "lng":-111.925908114897,
-            "name": "<p>Mile Marker 1</p>",
+            "name": "<h3>mile marker 1</h3><p>Congrats, you’ve made it through your first mile of Pat’s Run!</p>",
             "icon": "poi",
             "style": ""
         },
@@ -206,7 +215,7 @@
             "id": 102,
             "lat":33.43880499699657,
             "lng":-111.93949417096043,
-            "name": "<p>Mile Marker 2</p>",
+            "name": "<h3>Mile Marker 2</h3><p>Get ready for an upcoming left hand turn at Lake View Drive. </p>",
             "icon": "poi",
             "style": ""
         },
@@ -214,7 +223,7 @@
             "id": 103,
             "lat":33.43532936822106,
             "lng":-111.94295274811844,
-            "name": "<p>Mile Marker 3</p>",
+            "name": "<h3>Mile Marker 3</h3><p>You’ll soon be crossing back over Tempe Town Lake on the home stretch.</p>",
             "icon": "poi",
             "style": ""
         },
@@ -222,7 +231,7 @@
             "id": 104,
             "lat":33.428067023136286,
             "lng":-111.93343475769305,
-            "name": "<p>Mile Marker 4</p>",
+            "name": "<h3>Mile Marker 4</h3><p>You’re almost there! Just .2 miles to go! </p>",
             "icon": "poi",
             "style": ""
         },
@@ -230,15 +239,15 @@
             "id": 105,
             "lat":33.42751428022102,
             "lng":-111.92933798398431,
-            "name": "<p>Start</p>",
+            "name": "<h3>Start Line</h3><p>Race participants will be invited to enter their assigned corrals at 6:30 a.m.</p><p>4.2 mile chair start time is 7am.</p><p>4.2 mile rate start is 7:05am. </p>",
             "icon": "whats_here",
             "style": ""
         },
         {
             "id": 106,
-            "lat":33.43531505738987,
-            "lng":-111.94332728569164,
-            "name": "<p>Finish</p>",
+            "lat":33.42636440153003,
+            "lng":-111.93236699356329,
+            "name": "<h3>Finish Line</h3><p>Congratulations! This is the finish of Pat’s Run.</p><p>Make arrangements to reunite with family and friends after the race in Reunion Square, located south of the Race Expo.</p>",
             "icon": "whats_here",
             "style": ""
         },
@@ -497,6 +506,86 @@
             "name": "<p>Metro Stop & Park & Ride</p>",
             "icon": "poi",
             "style": ""
-        }        
+        },
+        {
+            "id": 411,
+            "lat":33.42898637091698,
+            "lng":-111.92636983295553,
+            "name": "<p>Road Closed 5:00AM</p>",
+            "icon": "whats_here",
+            "style": ""
+        },
+        {
+            "id": 412,
+            "lat":33.43622840009458,
+            "lng":-111.92630345623618,
+            "name": "<p>Road Closed 5:00AM</p>",
+            "icon": "whats_here",
+            "style": ""
+        },
+        {
+            "id": 413,
+            "lat":33.437813153485024,
+            "lng":-111.94358896008752,
+            "name": "<p>Road Closed 5:00AM</p>",
+            "icon": "whats_here",
+            "style": ""
+        },
+        {
+            "id": 414,
+            "lat":33.42981314319689,
+            "lng":-111.9399893107558,
+            "name": "<p>Road Closed 5:00AM</p>",
+            "icon": "whats_here",
+            "style": ""
+        },
+        {
+            "id": 415,
+            "lat":33.42203322202861,
+            "lng":-111.92625040154154,
+            "name": "<p>Road Closed 5:00AM</p>",
+            "icon": "whats_here",
+            "style": ""
+        },
+        {
+            "id": 415,
+            "lat":33.42926948705878,
+            "lng":-111.92689777465908,
+            "name": "<p>Handicap / Bike Parking</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 416,
+            "lat":33.4288835387473,
+            "lng":-111.94290735263456,
+            "name": "<p>Parking</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 417,
+            "lat":33.422696089528934,
+            "lng":-111.92426066144711,
+            "name": "<p>Parking</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 418,
+            "lat":33.42507282580828,
+            "lng":-111.9258788989759,
+            "name": "<p>Parking</p>",
+            "icon": "poi",
+            "style": ""
+        },
+        {
+            "id": 419,
+            "lat":33.42287280092519,
+            "lng":-111.93141791870578,
+            "name": "<p>Parking</p>",
+            "icon": "poi",
+            "style": ""
+        } 
     ]
 }
