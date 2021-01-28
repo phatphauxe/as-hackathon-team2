@@ -19,19 +19,8 @@ const SidePanel = (props: SidePanelProps) => {
 	const { AS, panelOpen, togglePanel } = props;
 
 	return (
-		<div className="side-panel-container">
-			<div onClick={togglePanel}>
-				<div className={"toggle_icon"} />
-				{/* <img src={toggle_icon} height={'50px'} width={'50px'} /> */}
-			</div>
-
-			<div className={`panel-overlay${panelOpen ? " open" : ""}`}>
-				<div onClick={togglePanel}>
-					<div className={"toggle_icon"} />
-					{/* <img src={toggle_icon} height={'50px'} width={'50px'} /> */}
-				</div>
-				<LayerController />
-			</div>
+		<div className={`side-panel-container${panelOpen ? " open" : ""}`}>
+			<LayerController togglePanel={togglePanel} panelOpen={panelOpen} />
 		</div>
 	)
 
