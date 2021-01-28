@@ -1,68 +1,68 @@
 {
-    "name": "kid run",
+    "name": "kids run",
     "visible": true,
     "marlers": [
         { 
-            "id": 1,
+            "id": 201,
             "lat":33.42784625752619,
             "lng":-111.92924555556249,
             "name": "<p>Start</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "whats_here"
         },
         { 
-            "id": 2,
+            "id": 202,
             "lat":33.43531505738987,
             "lng":-111.94332728569164,
             "name": "<p>Finish</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "whats_here"
         },
         { 
-            "id": 3,
+            "id": 203,
             "lat":33.428660906945105,
             "lng":-111.92936752569398,
             "name": "<p>Head West on Rio Salado Pkwy</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "whats_here"
         },
         {
-            "id": 4,
+            "id": 204,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
             "name": "<p>Head South following edge of parking lot</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "poi"
         },
         {
-            "id": 5,
+            "id": 205,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
             "name": "<p>Head South following edge of parking lot</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "poi"
         },
         {
-            "id": 6,
+            "id": 206,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
             "name": "<p>Head east toward entrance of Stadium</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "poi"
         },
         {
-            "id": 7,
+            "id": 207,
             "lat":33.42943487089773,
             "lng":-111.93391589356513,
             "name": "<p>Head South into the Stadium</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "poi"
         },
         {
-            "id": 8,
+            "id": 208,
             "lat":33.426451703144984,"lng":-111.93214289285186,
             "name": "<p>Kids Pick Zone</p>",
-            "layers": "feature_race",
+            "layers": "kids_run",
             "icon": "poi"
         }
     ]
