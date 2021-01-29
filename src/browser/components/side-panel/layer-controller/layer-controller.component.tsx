@@ -10,6 +10,7 @@ import parkingMapIcon from '../../../../assets/images/park.svg';
 import virtualIcon from '../../../../assets/images/virtual.svg';
 import openPanel from '../../../../assets/images/open.svg';
 import closePanel from '../../../../assets/images/collapse.svg';
+import formImage from '../../../../assets/images/share virtual run form.png';
 export interface StateProps {
 	AS: AS | null,
 	layers: PTRLayer[] | null,
@@ -33,6 +34,7 @@ const LayerController = (props:LayerControllerProps) => {
 	const { layers, markers, AS, togglePanel, panelOpen, virtualRunners } = props;
 	const [controllerLayers, setControllerLayers] = React.useState<ControllerLayer[] | null>(null);
 	const [virtualRunnerLayer, setVirtualRunnerLayer] = React.useState<ApiLayer | null>(null);
+	const [showForm, setShowForm] = React.useState<boolean>(false);
 	const [layersLoaded, setLayersLoaded] = React.useState<boolean>(false);
 	React.useEffect(() => {
 		if(layers && layers.length && markers && markers.length && virtualRunners && virtualRunners.length) {
@@ -90,7 +92,7 @@ const LayerController = (props:LayerControllerProps) => {
 		});
 		AS?.setLayerVisibility("Virtual Runners", false);
 		AS?.setLayerVisibility(layerID, true);
-
+		setShowForm(false);
 		if(controllerLayers){
 		setControllerLayers([...controllerLayers.map((controllerLayer:ControllerLayer):ControllerLayer => {
 			if(controllerLayer.layer.name === layerID){
@@ -106,8 +108,10 @@ const LayerController = (props:LayerControllerProps) => {
 	const setVirtualRunnersActive = () => {
 		controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
 			AS?.setLayerVisibility(controllerLayer.layer.name, false);
-			AS?.setLayerVisibility('Virtual Runners',true);
-		})
+			
+		});
+		AS?.setLayerVisibility('Virtual Runners',true);
+		setShowForm(true);
 	}
 	const getIconFromName = (name:string) => {
 		switch(name){
@@ -122,6 +126,7 @@ const LayerController = (props:LayerControllerProps) => {
 	}
 
 	return (
+		<React.Fragment>
 		<div className={`layer-controller-container${panelOpen ? ' open' : ''}`}>
 			<div className={'toggle_panel'} onClick={togglePanel}>
 				<div className={"icon-item"}>
@@ -164,7 +169,14 @@ const LayerController = (props:LayerControllerProps) => {
 				}
 			</div>
 			</div>
+
+			
+			
 		</div>
+		<div className={`run-form${showForm ? ' open' : ''}`}>
+			<img src={formImage} alt={'not gonna show form'} />
+		</div>
+		</React.Fragment>
 	)
 };
 
