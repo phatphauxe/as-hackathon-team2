@@ -39,24 +39,23 @@
 			}
 		}
 		& .text-item {
+			margin-left: 10px;
 			width: 250px;
 			height: 50px;
-			line-height: 50px;
-			text-align: left;
+			line-height: 45px;
 			font-size: 20px;
 			font-weight: bold;
 			color: white;
-
+			text-align: left;
 			& span {
-				width: 100%;
-				height: 50px;
-				line-height: 50px;
-
+				width: 250px;
 			}
 		}
 	}
 
 	& .layer-container {
+		user-select: none;
+		cursor: pointer;
 		& .line {
 			height: 0;
 			margin: 0 auto;
