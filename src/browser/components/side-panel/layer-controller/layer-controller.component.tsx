@@ -77,6 +77,9 @@ const LayerController = (props:LayerControllerProps) => {
 							} as ApiLayer }), ...[vrLayer]].filter(item => !!item) as ApiLayer[];
 	
 						AS?.sendData({layers: setLayers});
+						setTimeout(() => {
+							AS?.lookAt(108.7975010654751, 133.98772698064278);
+							AS?.setZoom(0.6840800980278313);}, 500);
 					}
 					else if(!layersLoaded) {
 						setLayersLoaded(true);
@@ -125,6 +128,7 @@ const LayerController = (props:LayerControllerProps) => {
 		}
 	}
 
+	if(controllerLayers && controllerLayers.length) {
 	return (
 		<React.Fragment>
 		<div className={`layer-controller-container${panelOpen ? ' open' : ''}`}>
@@ -157,16 +161,26 @@ const LayerController = (props:LayerControllerProps) => {
 			null }
 			
 			<div className="line" />
-			<div className={'layer-item virtual'} onClick={() => {setVirtualRunnersActive()}}>
-				<div className={'icon-item'}>
-					<img src={virtualIcon} alt={'icon goes here'} />
+			<div className={`layer-item virtual${panelOpen ? ' open' : ''}`} onClick={() => {setVirtualRunnersActive()}}>
+				<div className={'top-line'}>
+					<div className={'icon-item'}>
+						<img src={virtualIcon} alt={'icon goes here'} />
+					</div>
+					{ panelOpen ? 
+						<div className={'text-item'}>
+							<span>Virtual Race</span>
+						</div>
+						: null
+					}
 				</div>
 				{ panelOpen ? 
-					<div className={'text-item'}>
-						<span>Virtual Race</span>
-					</div>
-					: null
-				}
+				<div className={'info'}>
+					<span>
+						share your 2020 race and see other participants
+					</span>
+				</div>
+				: 
+				null }
 			</div>
 			</div>
 
@@ -177,7 +191,10 @@ const LayerController = (props:LayerControllerProps) => {
 			<img src={formImage} alt={'not gonna show form'} />
 		</div>
 		</React.Fragment>
-	)
+	)} 
+	else {
+		return null;
+	}
 };
 
 export default LayerController;

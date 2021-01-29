@@ -1,6 +1,6 @@
 import React from 'react';
 import {AS, Pano, SphereData } from '../../../../assets/models';
-import {loadViewer} from '../../../../content/http';
+import {getRequest, loadViewer} from '../../../../content/http';
 import { ViewerENV } from '../../../../content/http/loadViewer/loadViewer';
 import { selectActivePano } from '../../../../content/store/selectors/ptrData.selector';
 import './as-viewer.styles.scss';
@@ -48,8 +48,9 @@ const ASViewer = (props:ASViewerProps) => {
 			})()
 			AS.setWidgetEnabled(["fullScreen", "help", "info", "view_toggle", "navigation"], false);
 			AS.setFovRange(10, 90);	
-			AS.lookAt(108.7975010654751, 133.98772698064278);
-			AS.setZoom(0.6840800980278313);
+			
+			
+			
 		}
 	}, [AS]);
 	return (
