@@ -373,9 +373,9 @@
         },
         { 
             "id": 202,
-            "lat":33.43531505738987,
-            "lng":-111.94332728569164,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>KidS Run Finish Line</h3><p style='color: #15283A; font-size: 14px'>Congrats! Your little ones have made it!</p><p style='color: #15283A; font-size: 14px'>After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pickup Zone located east of the finish line.</p>",
+            "lat":33.42636440153003,
+            "lng":-111.93236699356329,
+            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Run Finish Line</h3><p style='color: #15283A; font-size: 14px'>Congrats! Your little ones have made it!</p><p style='color: #15283A; font-size: 14px'>After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pickup Zone located east of the finish line.</p>",
             "icon": "whats_here",
             "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
         },
@@ -423,7 +423,7 @@
             "id": 208,
             "lat":33.426451703144984,
             "lng":-111.93214289285186,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Pick Zone</h3>",
+            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Pickup Zone</h3>",
             "icon": "poi",
             "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
         },

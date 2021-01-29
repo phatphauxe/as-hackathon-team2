@@ -41,9 +41,15 @@ const ASViewer = (props:ASViewerProps) => {
 	React.useEffect(() => {
 		if(AS){
 			AS.openPanoramaById(15184);
-			(async () => { setActivePano(await AS.getActivePano())})()
+			(async () => { 
+				setActivePano(await AS.getActivePano())
+				AS.lookAt(108.7975010654751, 133.98772698064278);
+				AS.setZoom(0.6840800980278313);
+			})()
 			AS.setWidgetEnabled(["fullScreen", "help", "info", "view_toggle", "navigation"], false);
 			AS.setFovRange(10, 90);	
+			AS.lookAt(108.7975010654751, 133.98772698064278);
+			AS.setZoom(0.6840800980278313);
 		}
 	}, [AS]);
 	return (
