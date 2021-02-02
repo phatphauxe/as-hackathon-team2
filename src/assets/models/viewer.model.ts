@@ -1,5 +1,6 @@
 export interface ApiMarker {
 	id: number | string;
+	description?: string;
 	lat: number;
 	lng: number;
 	name?: string;
