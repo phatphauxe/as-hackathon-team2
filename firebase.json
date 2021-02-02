@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "pat-tillman-s-virtual-run",
     "public": "build",
     "ignore": [
       "firebase.json",
