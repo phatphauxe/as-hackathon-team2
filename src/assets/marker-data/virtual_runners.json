@@ -1,14 +1,15 @@
-{ "data": 
+{ "virtual_runners": 
 	[ 
 	 {
 		   "name": "Julie Smith",
 		   "marker": { 
-			   "name": "<p>Julie Smith</p>",
+			   "name": "<div style=\"position: relative; top: 0; left: 0; height: 100%; width: 100%; background-color: white; z-index: 10;\"><p>Julie Smith</p></div>",
+			   "description": "<div>some info</div>",
 			   "id": 109482015,
 			   "lat": 33.44395839719414,
 			   "lng": -111.92782786991928,
 			   "icon": "poi",
-			   "style": ""
+			   "style": {}
 			 }, 
 		   "totalTime": 48.15,
 		   "distance": 4.23,

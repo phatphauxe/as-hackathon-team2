@@ -2,7 +2,6 @@ import React from 'react';
 import { ApiLayer, ApiMarker, AS, Pano } from '../../../../assets/models';
 import { PTRLayer, PTRMarker, PTRVirtualRunner } from '../../../../assets/models/tillman.models';
 import './layer-container.styles.scss';
-
 import commonInfoIcon from '../../../../assets/images/info.svg';
 import featureIcon from '../../../../assets/images/run.svg';
 import kidsIcon from '../../../../assets/images/kids.svg';
@@ -79,7 +78,8 @@ const LayerController = (props:LayerControllerProps) => {
 						AS?.sendData({layers: setLayers});
 						setTimeout(() => {
 							AS?.lookAt(108.7975010654751, 133.98772698064278);
-							AS?.setZoom(0.6840800980278313);}, 500);
+							AS?.setZoom(0.6840800980278313);
+							AS?.setFovRange(10, 120);	}, 500);
 					}
 					else if(!layersLoaded) {
 						setLayersLoaded(true);
@@ -89,32 +89,39 @@ const LayerController = (props:LayerControllerProps) => {
 	}, [controllerLayers, AS, markers, virtualRunners, layersLoaded, setLayersLoaded, virtualRunnerLayer]);
 
 
-	const toggleLayers = (layerID:string) => {
-		controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
-			AS?.setLayerVisibility(controllerLayer.layer.name, false);
-		});
-		AS?.setLayerVisibility("Virtual Runners", false);
-		AS?.setLayerVisibility(layerID, true);
-		setShowForm(false);
-		if(controllerLayers){
-		setControllerLayers([...controllerLayers.map((controllerLayer:ControllerLayer):ControllerLayer => {
-			if(controllerLayer.layer.name === layerID){
-				return {...controllerLayer, active: true} as ControllerLayer;
+	const toggleLayers = async (layerID:string) => {
+		const layer = await AS?.getLayer(layerID)
+		if(layer && !layer.visible){
+			
+			controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
+				AS?.setLayerVisibility(controllerLayer.layer.name, false);
+			});
+			AS?.setLayerVisibility("Virtual Runners", false);
+			AS?.setLayerVisibility(layerID, true);
+			setShowForm(false);
+			if(controllerLayers){
+			setControllerLayers([...controllerLayers.map((controllerLayer:ControllerLayer):ControllerLayer => {
+				if(controllerLayer.layer.name === layerID){
+					return {...controllerLayer, active: true} as ControllerLayer;
+				}
+				else {
+					return {...controllerLayer, active: false} as ControllerLayer;
+				}
+			})]);
 			}
-			else {
-				return {...controllerLayer, active: false} as ControllerLayer;
-			}
-		})]);
 		}
 	}
 
-	const setVirtualRunnersActive = () => {
-		controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
-			AS?.setLayerVisibility(controllerLayer.layer.name, false);
-			
-		});
-		AS?.setLayerVisibility('Virtual Runners',true);
-		setShowForm(true);
+	const setVirtualRunnersActive = async () => {
+		const layer = await AS?.getLayer('Virtual Runners');
+		if(layer && !layer.visible){
+			controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
+				AS?.setLayerVisibility(controllerLayer.layer.name, false);
+				
+			});
+			AS?.setLayerVisibility('Virtual Runners',true);
+			setShowForm(true);
+		}
 	}
 	const getIconFromName = (name:string) => {
 		switch(name){
@@ -125,6 +132,17 @@ const LayerController = (props:LayerControllerProps) => {
 			case "Virtual Run": return virtualIcon;
 			default:
 				return "";
+		}
+	}
+
+	const getDisplayNameForLayer = (name:string) => {
+		switch(name){
+			case "Feature Race": return "Run Course";
+			case "Kid's Race": return "Kids Run";
+			case "Parking Map": return "Parking";
+			case "Common Information": return "Race Village";
+			case "Virtual Run": return "Virtual Race";
+			default: return "";
 		}
 	}
 
@@ -151,7 +169,7 @@ const LayerController = (props:LayerControllerProps) => {
 						</div>
 						{ panelOpen ? 
 							<div className={'text-item'}>
-								<span>{controllerLayer.layer.name}</span>
+								<span>{getDisplayNameForLayer(controllerLayer.layer.name)}</span>
 							</div>
 							: null
 						}

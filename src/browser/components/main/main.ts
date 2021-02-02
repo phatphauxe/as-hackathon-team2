@@ -21,7 +21,7 @@ const mapDispatchToProps = (dispatch:(action: Action) => void):DispatchProps => 
 			
 			dispatch(ActionModels.PTR.setLayers((viewerData.layers as unknown) as PTRLayer[]));
 			dispatch(ActionModels.PTR.setMarkers((viewerData.markers as unknown) as PTRMarker[]));
-			dispatch(ActionModels.PTR.loadVirtualRunners((virtualRunners.data as unknown) as PTRVirtualRunner[]));
+			dispatch(ActionModels.PTR.loadVirtualRunners((virtualRunners.virtual_runners as unknown) as PTRVirtualRunner[]));
 		}
 	}
 }
