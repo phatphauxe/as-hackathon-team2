@@ -89,32 +89,39 @@ const LayerController = (props:LayerControllerProps) => {
 	}, [controllerLayers, AS, markers, virtualRunners, layersLoaded, setLayersLoaded, virtualRunnerLayer]);
 
 
-	const toggleLayers = (layerID:string) => {
-		controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
-			AS?.setLayerVisibility(controllerLayer.layer.name, false);
-		});
-		AS?.setLayerVisibility("Virtual Runners", false);
-		AS?.setLayerVisibility(layerID, true);
-		setShowForm(false);
-		if(controllerLayers){
-		setControllerLayers([...controllerLayers.map((controllerLayer:ControllerLayer):ControllerLayer => {
-			if(controllerLayer.layer.name === layerID){
-				return {...controllerLayer, active: true} as ControllerLayer;
+	const toggleLayers = async (layerID:string) => {
+		const layer = await AS?.getLayer(layerID)
+		if(layer && !layer.visible){
+			
+			controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
+				AS?.setLayerVisibility(controllerLayer.layer.name, false);
+			});
+			AS?.setLayerVisibility("Virtual Runners", false);
+			AS?.setLayerVisibility(layerID, true);
+			setShowForm(false);
+			if(controllerLayers){
+			setControllerLayers([...controllerLayers.map((controllerLayer:ControllerLayer):ControllerLayer => {
+				if(controllerLayer.layer.name === layerID){
+					return {...controllerLayer, active: true} as ControllerLayer;
+				}
+				else {
+					return {...controllerLayer, active: false} as ControllerLayer;
+				}
+			})]);
 			}
-			else {
-				return {...controllerLayer, active: false} as ControllerLayer;
-			}
-		})]);
 		}
 	}
 
-	const setVirtualRunnersActive = () => {
-		controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
-			AS?.setLayerVisibility(controllerLayer.layer.name, false);
-			
-		});
-		AS?.setLayerVisibility('Virtual Runners',true);
-		setShowForm(true);
+	const setVirtualRunnersActive = async () => {
+		const layer = await AS?.getLayer('Virtual Runners');
+		if(layer && !layer.visible){
+			controllerLayers?.forEach((controllerLayer:ControllerLayer) => {
+				AS?.setLayerVisibility(controllerLayer.layer.name, false);
+				
+			});
+			AS?.setLayerVisibility('Virtual Runners',true);
+			setShowForm(true);
+		}
 	}
 	const getIconFromName = (name:string) => {
 		switch(name){
