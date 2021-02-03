@@ -8,8 +8,10 @@
 			   "id": 109482015,
 			   "lat": 33.44395839719414,
 			   "lng": -111.92782786991928,
+			   "pan":95.0655118937795,
+			   "tilt":107.81935129768374,
 			   "icon": "poi",
-			   "style": {}
+			   "style": {"display": "none"}
 			 }, 
 		   "totalTime": 48.15,
 		   "distance": 4.23,
@@ -19,10 +21,12 @@
 		   "name": "Bill Sampson",
 		   "marker": { 
 			   "name": "Bill Sampson",
-			   "description": "",
+			   "description": "This was different but still fun! Thanks.",
 			   "id": 109482014,
 			   "lat": 33.49764373849864,
 			   "lng": -111.99972786722921,
+			   "pan":129.28672871379848,
+			   "tilt":90.40343534772015,
 			   "icon": "poi",
 			   "style": { "display": "none" }
 			 }, 
@@ -34,7 +38,7 @@
 		   "name": "Roxanna Malcom",
 		   "marker": { 
 			   "name": "Roxanna Malcom",
-			   "description": "",
+			   "description": "Now I have to get out there and run more often!",
 			   "id": 109482013,
 			   "lat": 33.42257647524129,
 			   "lng": -111.942319671287,
@@ -49,10 +53,12 @@
 		   "name": "Colin Trenton",
 		   "marker": { 
 			   "name": "Colin Trenton",
-			   "description": "",
+			   "description": "Yeah that wasn't so bad.",
 			   "id": 109482012,
 			   "lat": 33.49764373849864,
 			   "lng": -111.99972786722921,
+			   "pan":190.85595877465053,
+			   "tilt":111.29210606044164,
 			   "icon": "poi",
 			   "style": { "display": "none" }
 			 }, 
@@ -64,10 +70,12 @@
 		   "name": "Julie Garcia",
 		   "marker": { 
 			   "name": "Julie Garcia",
-			   "description": "",
+			   "description": "I can't get over myself that was tough. Thanks everyone who supported me!",
 			   "id": 109482011,
 			   "lat": 33.43228204273034,
 			   "lng": -111.94958755231232,
+			   "pan":159.35375390116008,
+			   "tilt":102.71810227594025,
 			   "icon": "poi",
 			   "style": { "display": "none" }
 			 }, 

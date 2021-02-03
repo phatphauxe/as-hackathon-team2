@@ -192,7 +192,7 @@ const LayerController = (props:LayerControllerProps) => {
 			<div className={'layer-container'}>
 			{controllerLayers ? controllerLayers.map((controllerLayer:ControllerLayer) => {
 				return (
-					<div className={'layer-item'} onClick={() => {toggleLayers(controllerLayer.layer.name)}}>
+					<div key={controllerLayer.layer.name} className={'layer-item'} onClick={() => {toggleLayers(controllerLayer.layer.name)}}>
 						<div className={'icon-item'}>
 							<img src={getIconFromName(controllerLayer.layer.name)} alt={"icon goes here"}/>
 						</div>

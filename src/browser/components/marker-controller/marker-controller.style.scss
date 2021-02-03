@@ -59,7 +59,7 @@
 					display: flex;
 					flex-direction: row;
 					&.long {
-						font-size: 10px;
+						font-size: 9px;
 					}
 					& .active-bar {
 						height: 40px;
@@ -80,17 +80,32 @@
 				}
 				&.active {
 					height: 150px;
+
+					&.long {
+						height: 220px;
+					}
 					& .header {
 						background-color: $blue;
 					}
 				}
 
+				& .marker-image {
+					width:80%;
+					text-align: center;
+					& img {
+						width: 100%;
+						height: auto;
+						margin-left: 25px;
+					}
+
+				}
 				& .marker-description {
 					width: 80%;
 					margin: 10px auto 0 auto;
 					font-size: 10px;
 					text-transform: unset;
 					line-height: 12px;
+					
 				}
 
 			}
