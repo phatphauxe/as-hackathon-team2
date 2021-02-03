@@ -19,7 +19,16 @@ export type MainPageProps = StateProps & DispatchProps;
 const MainPage = (props: MainPageProps) => {
 	const { AS, activePano, loadAllPTRData } = props;
 	const [appReady, setAppReady] = React.useState<boolean>(false);
-
+	// const getLocalLookAt = async () => {
+	// 	if(AS){
+		
+	// 		const zoom = await AS.getZoom();
+	// 		const lookAtData = await AS.getLookAt();
+	// 		const result = JSON.stringify(lookAtData);
+	// 		console.log(result);
+			
+	// 	}
+	// }
 
 	React.useEffect(() => {
 		
@@ -46,6 +55,7 @@ const MainPage = (props: MainPageProps) => {
 			<React.Fragment>
 				<SidePanel />
 				<MarkerController />
+			{/* <button style={{position: 'absolute', top: '50px', left: '50px', zIndex: 100}} onClick={() => {getLocalLookAt()}}>GET LOOK AT</button> */}
 			</React.Fragment> : null}
 			<ASViewer />
 			
