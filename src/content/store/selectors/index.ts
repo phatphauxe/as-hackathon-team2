@@ -1,4 +1,4 @@
-import { AS, Pano } from '../../../assets/models';
+import { ApiLayer, AS, Pano } from '../../../assets/models';
 import { State } from '../../../assets/models/store.model';
 import * as AppSelectors from './appData.selector';
 import * as ASSelectors from './aerialSphereData.selector';
@@ -19,6 +19,10 @@ export interface PTRSelectorsModel {
 	selectPTRMarkers: (state:State) => PTRMarker[] | null;
 	selectPTRVirtualRunners: (state:State) => PTRVirtualRunner[] | null;
 	selectActivePano: (state:State) => Pano | null;
+	selectActiveMarker: (state:State) => string | null;
+	selectShowMarkerList: (state:State) => boolean;
+	selectDisplayMarkers: (state:State) => PTRMarker[] | null;
+	selectActiveLayer: (state:State) => ApiLayer | null;
 }
 
 export interface SelectorsModel {

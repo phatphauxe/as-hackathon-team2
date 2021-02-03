@@ -1,32 +1,32 @@
 {
     "layers": [
         {
-                "name": "Feature Race",
-                "visible": true,
-                "markers": [
-                    101,
-                    102,
-                    103,
-                    104,
-                    105,
-                    106,
-                    107,
-                    108,
-                    109,
-                    110,
-                    111,
-                    112,
-                    113,
-                    114,
-                    115,
-                    116,
-                    117,
-                    118,
-                    119,
-                    120
-                ]
-            },
-
+            "name": "Feature Race",
+            "visible": true,
+            "markers": [
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120
+            ]
+        },
+        
         {
 
                 "name": "Kid's Race",
@@ -38,8 +38,7 @@
                     204,
                     205,
                     206,
-                    207,
-                    208
+                    207
                 ]
 
         },
@@ -95,497 +94,605 @@
             "id": 301,
             "lat":33.43538109989339,
             "lng":-111.92572751616524,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Medical Station</h3><p style='color: #15283A; font-size: 14px'>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
+            "name": "Medical Station",
+            "description": "For race day help, look for the volunteers dressed in red shirts with a white cross.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 302,
             "lat":33.438826764409434,
             "lng":-111.93925996087566,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Medical Station</h3><p style='color: #15283A; font-size: 14px'>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
+            "name": "Medical Station",
+            "description": "For race day help, look for the volunteers dressed in red shirts with a white cross.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 303,
             "lat":33.435250505601644,
             "lng":-111.94324616887525,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Medical Station</h3><p style='color: #15283A; font-size: 14px'>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
+            "name": "Medical Station",
+            "description": "For race day help, look for the volunteers dressed in red shirts with a white cross.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 304,
             "lat":33.425943245482244,
             "lng":-111.93222303199929,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Medical Station</h3><p style='color: #15283A; font-size: 14px'>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
+            "name": "Medical Station",
+            "description": "For race day help, look for the volunteers dressed in red shirts with a white cross.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 305,
             "lat":33.42714155185951,
             "lng":-111.92837054778093,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Start Medical Station</h3><p style='color: #15283A; font-size: 14px'>For race day help, look for the volunteers dressed in red shirts with a white cross.</p>",
+            "name": "Medical Station",
+            "description": "For race day help, look for the volunteers dressed in red shirts with a white cross.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 306,
             "lat":33.43523937572557,
             "lng":-111.9259643905395,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Aid Station</h3><p style='color: #15283A; font-size: 14px'>Water and electrolyte drinks will be available at each mile marker aid station.</p>",
+            "name": "Aid Station",
+            "description": "Water and electrolyte drinks will be available at each mile marker aid station.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 307,
             "lat":33.43869434911048,
             "lng":-111.9394572777661,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Aid Station</h3><p style='color: #15283A; font-size: 14px'>Water and electrolyte drinks will be available at each mile marker aid station.</p>",
+            "name": "Aid Station",
+            "description": "Water and electrolyte drinks will be available at each mile marker aid station.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 308,
             "lat":33.43531505738987,
             "lng":-111.94332728569164,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Aid Station</h3><p style='color: #15283A; font-size: 14px'>Water and electrolyte drinks will be available at each mile marker aid station.</p>",
+            "name": "Aid Station",
+            "description": "Water and electrolyte drinks will be available at each mile marker aid station.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 309,
             "lat":33.426451703144984,
             "lng":-111.93214289285186,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Pick Zone</h3><p style='color: #15283A; font-size: 14px'>After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pick Up Zone located east of the finish line.</p><p style='color: #15283A; font-size: 14px'>Children will be released to a parent/guardian wearing the wristband that exactly matches the number on the child’s wristband.</p>",
+            "name": "Kids Pick Zone",
+            "description": "After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pick Up Zone located east of the finish line. Children will be released to a parent/guardian wearing the wristband that exactly matches the number on the child’s wristband.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 310,
             "lat":33.426667960061074,
             "lng":-111.93205097489964,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Refreshments</h3><p style='color: #15283A; font-size: 14px'>Enjoy ice cold water, Gatorade and chocolate milk along with post-race snacks courtesy of our sponsors! </p>",
+            "name": "Refreshments",
+            "description": "Enjoy ice cold water, Gatorade and chocolate milk along with post-race snacks courtesy of our sponsors!",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 311,
             "lat":33.428345867667055,
             "lng":-111.92956866277014,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Corner</h3><p style='color: #15283A; font-size: 14px'>Families with kids 12 and under can also enjoy the interactive Kids Corner in the Expo with inflatables, an obstacle course, and crafts.</p><p style='color: #15283A; font-size: 14px'>Children cannot not be left unsupervised in the Kids Corner; no drop-off for adult race participants allowed.</p>",
+            "name": "Kids Corner",
+            "description": "Families with kids 12 and under can also enjoy the interactive Kids Corner in the Expo with inflatables, an obstacle course, and crafts. Children cannot not be left unsupervised in the Kids Corner; no drop-off for adult race participants allowed.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 312,
             "lat":33.427614731973776,
             "lng":-111.92950326928616,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Expo Area</h3><p style='color: #15283A; font-size: 14px'>Visit the Pat’s Run Expo before and after the race where over 40 local and national vendors will provide food and drink samples, giveaways and more.</p>",
+            "name": "Expo Area",
+            "description": "Visit the Pat’s Run Expo before and after the race where over 40 local and national vendors will provide food and drink samples, giveaways and more.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 313,
             "lat":33.42650839777694,
             "lng":-111.92950809082546,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Reunion Sqauare</h3><p style='color: #15283A; font-size: 14px'>Make arrangements to reunite with family and friends after the race in Reunion Square, located south of the Race Expo.</p><p style='color: #15283A; font-size: 14px'>Plan to meet under the letter of the alphabet that corresponds to your last name, team name, company name, etc. </p>",
+            "name": "Reunion Sqauare",
+            "description": "Make arrangements to reunite with family and friends after the race in Reunion Square, located south of the Race Expo. Plan to meet under the letter of the alphabet that corresponds to your last name, team name, company name, etc.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 313,
             "lat":33.425039639253995,
             "lng":-111.93093397304712,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Post Race Party</h3><p style='color: #15283A; font-size: 14px'>After the race, you can also join us for the Post-Party at Desert Arboretum Park, located just outside the southeast corner of Sun Devil Stadium.</p><p style='color: #15283A; font-size: 14px'>Finishers 21 years and older *must* present both their ID and race bib to receive a complimentary beer to celebrate Pat’s Run and toast to Pat’s legacy.</p>",
+            "name": "Post Race Party",
+            "description": "After the race, you can also join us for the Post-Party at Desert Arboretum Park, located just outside the southeast corner of Sun Devil Stadium. Finishers 21 years and older *must* present both their ID and race bib to receive a complimentary beer to celebrate Pat’s Run and toast to Pat’s legacy.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
-        { 
+        {
             "id": 101,
-            "lat":33.43544316832928,
-            "lng":-111.925908114897,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>mile marker 1</h3><p style='color: #15283A; font-size: 14px'>Congrats, you’ve made it through your first mile of Pat’s Run!</p>",
-            "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "lat":33.427294, 
+            "lng":-111.929253,
+            "name": "Start Line",
+            "description": "Race participants will be invited to enter their assigned corrals at 6:30 a.m. 4.2 mile chair start time is 7am. 4.2 mile rate start is 7:05am.",
+            "icon": "whats_here",
+            "pan":138.40671234610141,
+            "tilt":154.0976768065264,
+            "style": { "display": "none" }
         },
         {
             "id": 102,
-            "lat":33.43880499699657,
-            "lng":-111.93949417096043,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Mile Marker 2</h3><p style='color: #15283A; font-size: 14px'>Get ready for an upcoming left hand turn at Lake View Drive. </p>",
+            "lat":33.42434431578691,
+            "lng":-111.92912920235213,
+            "name": "Turn 1: Left",
+            "description": "Head East on 6th Street",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":202.84860123714563,
+            "tilt":158.35685104914845,
+            "style": { "display": "none" }
         },
         {
             "id": 103,
-            "lat":33.43532936822106,
-            "lng":-111.94295274811844,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Mile Marker 3</h3><p style='color: #15283A; font-size: 14px'>You’ll soon be crossing back over Tempe Town Lake on the home stretch.</p>",
+            "lat":33.4245461314973,
+            "lng":-111.92632803025087,
+            "name": "Turn 2: Left",
+            "description": "Head North on Rural Rd.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":258.0673528806519,
+            "tilt":171.3138119040455,
+            "style": { "display": "none" }
         },
-        {
+        { 
             "id": 104,
-            "lat":33.428067023136286,
-            "lng":-111.93343475769305,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Mile Marker 4</h3><p style='color: #15283A; font-size: 14px'>You’re almost there! Just .2 miles to go! </p>",
+            "lat":33.43544316832928,
+            "lng":-111.925908114897,
+            "name": "Mile Marker 1",
+            "description": "Congrats, you’ve made it through your first mile of Pat’s Run!",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":87.2692044947317,
+            "tilt":122.6436281270219,
+            "style": { "display": "none" }
         },
+
         {
             "id": 105,
-            "lat":33.42751428022102,
-            "lng":-111.92933798398431,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Start Line</h3><p style='color: #15283A; font-size: 14px'>Race participants will be invited to enter their assigned corrals at 6:30 a.m.</p><p style='color: #15283A; font-size: 14px'>4.2 mile chair start time is 7am.</p><p style='color: #15283A; font-size: 14px'>4.2 mile rate start is 7:05am. </p>",
-            "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "lat":33.43762414794059,
+            "lng":-111.92628980763594,
+            "name": "Turn 3: Left",
+            "description": "Head West on Gilbert Rd.",
+            "icon": "poi",
+            "pan":88.4527602800984,
+            "tilt":115.83590984355573,
+            "style": { "display": "none" }
         },
         {
             "id": 106,
-            "lat":33.42636440153003,
-            "lng":-111.93236699356329,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Finish Line</h3><p style='color: #15283A; font-size: 14px'>Congratulations! This is the finish of Pat’s Run.</p><p style='color: #15283A; font-size: 14px'>Make arrangements to reunite with family and friends after the race in Reunion Square, located south of the Race Expo.</p>",
-            "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "lat":33.436544350729704,
+            "lng":-111.93004524628273,
+            "name": "Turn 4: Right",
+            "description": "Head North on College Ave.",
+            "icon": "poi",
+            "pan":103.69130137643506,
+            "tilt":117.58492851460383,
+            "style": { "display": "none" }
         },
         {
             "id": 107,
-            "lat":33.42434431578691,
-            "lng":-111.92912920235213,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head East on 6th Street</h3>",
+            "lat":33.440199908662194,
+            "lng":-111.9308550071963,
+            "name": "Turn 5: Left",
+            "description": "Head West on Curry Rd.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":102.40493253855578,
+            "tilt":109.52624788112783,
+            "style": { "display": "none" }
         },
         {
             "id": 108,
-            "lat":33.4245461314973,
-            "lng":-111.92632803025087,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head North on Rural Rd.</h3>",
+            "lat":33.43880499699657,
+            "lng":-111.93949417096043,
+            "name": "Mile Marker 2",
+            "description": "Get ready for an upcoming left hand turn at Lake View Drive.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":128.12748165396843,
+            "tilt":107.0405186404475,
+            "style": { "display": "none" }
         },
         {
             "id": 109,
-            "lat":33.43762414794059,
-            "lng":-111.92628980763594,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head West on Gilbert Rd.</h3>",
+            "lat":33.43833264392396,
+            "lng":-111.94166949086568,
+            "name": "Turn 6: Left",
+            "description": "Head South on E. Lake View Dr.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":134.27774262217469,
+            "tilt":105.13852205106134,
+            "style": { "display": "none" }
         },
         {
             "id": 110,
-            "lat":33.436544350729704,
-            "lng":-111.93004524628273,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head North on College Ave.</h3>",
+            "lat":33.434920, 
+            "lng":-111.943569,
+            "name": "Turn 7: Right",
+            "description": "Head North on W. Lake View Dr.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":134.27774262217469,
+            "tilt":105.13852205106134,
+            "style": { "display": "none" }
         },
         {
             "id": 111,
-            "lat":33.440199908662194,
-            "lng":-111.9308550071963,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head West on Curry Rd.</h3>",
+            "lat":33.436215,
+            "lng": -111.944111,
+            "name": "Turn 8: Right",
+            "description": "Head East toward N. Mill Avenue.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none"}
         },
         {
             "id": 112,
-            "lat":33.43833264392396,
-            "lng":-111.94166949086568,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South on Lake View Dr.</h3>",
+            "lat":33.436157,
+            "lng": -111.942929,
+            "name": "Turn 9: Right",
+            "description": "Head South on Tempe Bridge",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":142.19668226984294,
+            "tilt":106.67524682630153,
+            "style": { "display": "none" }
         },
         {
             "id": 113,
-            "lat":33.43833264392396,
-            "lng":-111.94166949086568,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head East toward Mill Ave. Bridge</h3>",
+            "lat":33.435396, 
+            "lng":-111.942619,
+            "name": "Mile Marker 3",
+            "description": "You’ll soon be crossing back over Tempe Town Lake on the home stretch.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":143.7140723439531,
+            "tilt":106.47127257931989,
+            "style": { "display": "none" }
         },
         {
             "id": 114,
-            "lat":33.43616464197399,
-            "lng":-111.94302438804132,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South over Mill Ave. Bridge</h3>",
+            "lat":33.42968791769232,
+            "lng":-111.94007838952713,
+            "name": "Turn 10: Right",
+            "description": "Head West on Rio Salado Pkwy.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":157.72196681289964,
+            "tilt":115.11644547170236,
+            "style": { "display": "none" }
         },
         {
             "id": 115,
-            "lat":33.42968791769232,
-            "lng":-111.94007838952713,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head West on Rio Salado Pkwy</h3>",
+            "lat":33.42957423919019,
+            "lng":-111.94104423744922,
+            "name": "Turn 11: Left",
+            "description": "Turn Around, Head east on Rio Salado Pkwy.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":160.65498187792718,
+            "tilt":113.60919630143692,
+            "style": { "display": "none" }
         },
         {
             "id": 116,
-            "lat":33.42957423919019,
-            "lng":-111.94104423744922,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Turn Around, Head east on Rio Salado Pkwy</h3>",
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "name": "Turn 12: Right",
+            "description": "Head South following edge of parking lot.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":145.6680726255987,
+            "tilt":128.9130082927997,
+            "style": { "display": "none" }
         },
         {
             "id": 117,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South following edge of parking lot</h3>",
+            "lat":33.428636, 
+            "lng":-111.934165,
+            "name": "Turn 13: Left",
+            "description": "Head east toward entrance of Stadium.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":153.9506311425369,
+            "tilt":126.26578531675408,
+            "style": { "display": "none" }
         },
         {
             "id": 118,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South following edge of parking lot</h3>",
+            "lat":33.428653, 
+            "lng":-111.933337,
+            "name": "Mile Marker 4",
+            "description": "You’re almost there! Just .2 miles to go!",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":146.13611454748576,
+            "tilt":135.14965909930243,
+            "style": { "display": "none" }
         },
         {
             "id": 119,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head east toward entrance of Stadium</h3>",
+            "lat":33.428681, 
+            "lng":-111.932255,
+            "pan":145.6894410994706,
+            "tilt":135.6732547009683,
+            "name": "Turn 14: Right",
+            "description": "Head South into the Stadium.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 120,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South into the Stadium</h3>",
-            "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "lat":33.42636440153003,
+            "lng":-111.93236699356329,
+            "name": "Finish Line",
+            "description": "Congratulations! This is the finish of Pat’s Run. Make arrangements to reunite with family and friends after the race in Reunion Square, located south of the Race Expo.",
+            "icon": "whats_here",
+            "pan":166.06846307902208,
+            "tilt":137.01757729235823,
+            "style": { "display": "none" }
         },
+         
         { 
             "id": 201,
             "lat":33.42784625752619,
             "lng":-111.92924555556249,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Run Start Line</h3><p style='color: #15283A; font-size: 14px'>Pat’s Run Kids Run is a 0.42 mile, noncompetitive run/walk for children 12 years and under.</p><p style='color: #15283A; font-size: 14px'>The Kids Run starts at 10 a.m. just south of the Kids Corner on Packard Drive.</p>",
+            "pan": 136.5498596871746,
+            "tilt": 150.8608073831703,
+            "name": "Kids Run Start Line",
+            "description": "Pat’s Run Kids Run is a 0.42 mile, noncompetitive run/walk for children 12 years and under. The Kids Run starts at 10 a.m. just south of the Kids Corner on Packard Drive.",
             "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
+      
         { 
             "id": 202,
-            "lat":33.42636440153003,
-            "lng":-111.93236699356329,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Run Finish Line</h3><p style='color: #15283A; font-size: 14px'>Congrats! Your little ones have made it!</p><p style='color: #15283A; font-size: 14px'>After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pickup Zone located east of the finish line.</p>",
-            "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
-        },
-        { 
-            "id": 203,
             "lat":33.428660906945105,
             "lng":-111.92936752569398,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head West on Rio Salado Pkwy</h3>",
-            "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan": 128.53920528798002,
+            "tilt": 144.12022506039594,
+            "name": "Turn 1: Left",
+            "description": "Head West on Rio Salado Pkwy.",
+            "icon": "poi",
+            "style": { "display": "none" }
+        },
+        {
+            "id": 203,
+            "lat":33.42943487089773,
+            "lng":-111.93391589356513,
+            "pan": 143.45395477116858,
+            "tilt": 126.71805869505837,
+            "name": "Turn 2: Left",
+            "description": "Head South following edge of parking lot",
+            "icon": "poi",
+            "style": { "display": "none" }
         },
         {
             "id": 204,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South following edge of parking lot</h3>",
+            "lat":33.428636, 
+            "lng":-111.934165,
+            "name": "Turn 3: Left",
+            "description": "Head east toward entrance of Stadium",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "pan":153.9506311425369,
+            "tilt":126.26578531675408,
+            "style": { "display": "none" }
         },
         {
             "id": 205,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South following edge of parking lot</h3>",
+            "lat":33.428681, 
+            "lng":-111.932255,
+            "pan":145.6894410994706,
+            "tilt":135.6732547009683,
+            "name": "Turn 4: Right",
+            "description": "Head South into the Stadium",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
-        {
+        { 
             "id": 206,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head east toward entrance of Stadium</h3>",
-            "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "lat":33.42636440153003,
+            "lng":-111.93236699356329,
+            "pan": 164.5360207845436,
+            "tilt": 136.71328511212315,
+            "name": "Kids Run Finish Line",
+            "description": "Congrats! Your little ones have made it! After crossing the finish line, kids 12 and under can safely wait for a parent in the Kids Pickup Zone located east of the finish line.",
+            "icon": "whats_here",
+            "style": { "display": "none" }
         },
         {
             "id": 207,
-            "lat":33.42943487089773,
-            "lng":-111.93391589356513,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Head South into the Stadium</h3>",
-            "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
-        },
-        {
-            "id": 208,
             "lat":33.426451703144984,
             "lng":-111.93214289285186,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Kids Pickup Zone</h3>",
+            "pan": 164.5360207845436,
+            "tilt": 136.71328511212315,
+            "name": "Kids Pick Zone",
+            "description": "Gathering point for post race meet up.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 401,
             "lat":33.44258105950377,
             "lng":-111.95663895242377,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop</h3>",
+            "name": "Metro Stop",
+            "description": "Public Transit Stop",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 402,
             "lat":33.43808785363191,
             "lng":-111.94659673320436,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop</h3>",
+            "name": "Metro Stop",
+            "description": "Public Transit Stop",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 403,
             "lat":33.427570092309104,
             "lng":-111.9410298893588,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop</h3>",
+            "name": "Metro Stop",
+            "description": "Public Transit Stop",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 404,
             "lat":33.426115083563865,
             "lng":-111.9357108652093,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop</h3>",
+            "name": "Metro Stop",
+            "description": "Public Transit Stop",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 405,
             "lat":33.42075006874698,
             "lng":-111.92688117664329,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop</h3>",
+            "name": "Metro Stop",
+            "description": "Public Transit Stop",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 406,
             "lat":33.42075006874698,
             "lng":-111.92688117664329,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop</h3>",
+            "name": "Metro Stop",
+            "description": "Public Transit Stop",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 407,
             "lat":33.414806749716554,
             "lng":-111.91686707660256,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop & Park & Ride</h3>",
+            "name": "Metro Stop, Park & Ride",
+            "description": "Public Transit Stop and Nearby Parking.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 408,
             "lat":33.414808379080654,
             "lng":-111.9083460580182,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop & Park & Ride</h3>",
+            "name": "Metro Stop, Park & Ride",
+            "description": "Public Transit Stop and Nearby Parking.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 409,
             "lat":33.414826276978424,
             "lng":-111.90391330071209,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop</h3>",
+            "name": "Metro Stop",
+            "description": "Public Transit Stop",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 410,
             "lat":33.414906502220184,
             "lng":-111.88868791986494,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Metro Stop & Park & Ride</h3>",
+            "name": "Metro Stop, Park & Ride",
+            "description": "Public Transit Stop and Nearby Parking.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 411,
             "lat":33.42898637091698,
             "lng":-111.92636983295553,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Road Closed 5:00AM</h3>",
+            "name": "Road Closure",
+            "description": "Road Closed 5:00AM",
             "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 412,
             "lat":33.43622840009458,
             "lng":-111.92630345623618,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Road Closed 5:00AM</h3>",
+            "name": "Road Closure",
+            "description": "Road Closed 5:00AM",
             "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 413,
             "lat":33.437813153485024,
             "lng":-111.94358896008752,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Road Closed 5:00AM</h3>",
+            "name": "Road Closure",
+            "description": "Road Closed 5:00AM",
             "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 414,
             "lat":33.42981314319689,
             "lng":-111.9399893107558,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Road Closed 5:00AM</h3>",
+            "name": "Road Closure",
+            "description": "Road Closed 5:00AM",
             "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 415,
             "lat":33.42203322202861,
             "lng":-111.92625040154154,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Road Closed 5:00AM</h3>",
+            "name": "Road Closure",
+            "description": "Road Closed 5:00AM",
             "icon": "whats_here",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 415,
             "lat":33.42926948705878,
             "lng":-111.92689777465908,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Handicap / Bike Parking</h3>",
+            "name": "Handicap / Bike Parking",
+            "description": "Ease of Access area.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 416,
             "lat":33.4288835387473,
             "lng":-111.94290735263456,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Parking</h3>",
+            "name": "Parking",
+            "description": "Public Parking Area.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 417,
             "lat":33.422696089528934,
             "lng":-111.92426066144711,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Parking</h3>",
+            "name": "Parking",
+            "description": "Public Parking Area.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 418,
             "lat":33.42507282580828,
             "lng":-111.9258788989759,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Parking</h3>",
+            "name": "Parking",
+            "description": "Public Parking Area.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         },
         {
             "id": 419,
             "lat":33.42287280092519,
             "lng":-111.93141791870578,
-            "name": "<h3 style='color: #8E0C3A; font-size: 20px'>Parking</h3>",
+            "name": "Parking",
+            "description": "Public Parking Area.",
             "icon": "poi",
-            "style": { "height": "auto", "width": "350px" , "border-radius": "15px", "border": "none"}
+            "style": { "display": "none" }
         } 
     ]
 }

@@ -15,6 +15,7 @@ export interface PTRLayer {
 }
 
 export interface PTRMarker extends ApiMarker {
-
+	pan?: number,
+	tilt?: number,
 }
 

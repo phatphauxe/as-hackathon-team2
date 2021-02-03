@@ -1,7 +1,11 @@
 import { connect } from 'react-redux';
+import { Action } from 'redux';
+import { ApiLayer } from '../../../../assets/models';
 import { State } from '../../../../assets/models/store.model';
+import { PTRMarker } from '../../../../assets/models/tillman.models';
+import { ActionModels } from '../../../../content/store';
 import Selectors from '../../../../content/store/selectors';
-import LayerController, {StateProps} from './layer-controller.component';
+import LayerController, {StateProps, DispatchProps} from './layer-controller.component';
 
 const mapStateToProps = (state:State):StateProps => {
 	return {
@@ -13,4 +17,15 @@ const mapStateToProps = (state:State):StateProps => {
 	}
 }
 
-export default connect(mapStateToProps)(LayerController);
+const mapDispatchToProps = (dispatch:(action:Action) => void): DispatchProps  => {
+	return {
+		setDisplayMarkersList: (markers:PTRMarker[] | null) => {
+			dispatch(ActionModels.PTR.setDisplayedMarkers(markers));
+		},
+		setActiveLayer: (layer:ApiLayer) => {
+			dispatch(ActionModels.PTR.setActiveLayer(layer));
+		}
+	}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(LayerController);

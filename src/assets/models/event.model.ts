@@ -11,7 +11,7 @@ export interface OnClickResponse {
 }
 
 export interface OnMarkerClickResponse {
-	id: number;
+	id: string | number;
 }
 
 export interface OnViewChangeResponse {
