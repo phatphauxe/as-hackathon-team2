@@ -55,17 +55,8 @@ const ASViewer = (props:ASViewerProps) => {
 				})
 			})()
 			AS.setWidgetEnabled(["fullScreen", "help", "info", "view_toggle", "navigation"], false);
-			
-			
-			// AS.onViewChange((response:OnViewChangeResponse) => {
-			// 	switch(response.eventName){
-			// 		case "wake": setShowMarkerList(false); break;
-			// 		case "sleep": setShowMarkerList(true); break;
-			// 		default: return;
-			// 	}
-			// });
 		}
-	}, [AS]);
+	}, [AS, setActivePano]);
 	return (
 		<div id={'as-viewer'} className={'aerial-sphere-container'}/>
 	);
