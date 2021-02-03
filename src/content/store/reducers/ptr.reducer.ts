@@ -1,10 +1,10 @@
-import { Pano } from "../../../assets/models";
+import { ApiLayer, Pano } from "../../../assets/models";
 import { PTRReducerState } from "../../../assets/models/store.model";
 import { PTRLayer, PTRMarker, PTRVirtualRunner } from "../../../assets/models/tillman.models";
 import { ActionTypes } from "../actions";
 import { Action } from "../actions/action.helpers";
 
-export type PTRReducerAction = PTRLayer[] | PTRMarker[] | PTRVirtualRunner[] | Pano | boolean | null;
+export type PTRReducerAction = ApiLayer | PTRLayer[] | PTRMarker[] | PTRVirtualRunner[] | Pano | boolean | null;
 
 export const defaultPTRReducer:PTRReducerState = {
 	panelOpen: false,
@@ -12,6 +12,10 @@ export const defaultPTRReducer:PTRReducerState = {
 	markers: [],
 	virtualRunners: [],
 	activePano: null,
+	activeMarker: null,
+	showMarkerList: false,
+	displayMarkers: null,
+	activeLayer: null,
 }
 
 const PTRReducer = (state:PTRReducerState = defaultPTRReducer, action:Action<PTRReducerAction>) => {
@@ -34,6 +38,22 @@ const PTRReducer = (state:PTRReducerState = defaultPTRReducer, action:Action<PTR
 		case ActionTypes.PTR.setActivePano: {
 			const payload = action.payload as Pano;
 			return {...state, activePano: payload};
+		}
+		case ActionTypes.PTR.setActiveMarker: {
+			const payload = action.payload as string | null;
+			return {...state, activeMarker: payload};
+		}
+		case ActionTypes.PTR.setShowMarkerList: {
+			const payload = action.payload as boolean;
+			return { ...state, showMarkerList: payload};
+		}
+		case ActionTypes.PTR.setDisplayedMarkers: {
+			const payload = action.payload as PTRMarker[];
+			return {...state, displayMarkers: payload};
+		}
+		case ActionTypes.PTR.setActiveLayer: {
+			const payload = action.payload as ApiLayer;
+			return { ...state, activeLayer: payload};
 		}
 		default:
 			return state;

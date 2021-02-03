@@ -3,8 +3,8 @@
 	 {
 		   "name": "Julie Smith",
 		   "marker": { 
-			   "name": "<div style=\"position: relative; top: 0; left: 0; height: 100%; width: 100%; background-color: white; z-index: 10;\"><p>Julie Smith</p></div>",
-			   "description": "<div>some info</div>",
+			   "name": "Julie Smith",
+			   "description": "I did it, I found the motivation and did it!",
 			   "id": 109482015,
 			   "lat": 33.44395839719414,
 			   "lng": -111.92782786991928,
@@ -18,12 +18,13 @@
 	{
 		   "name": "Bill Sampson",
 		   "marker": { 
-			   "name": "<p>Bill Sampson</p>",
+			   "name": "Bill Sampson",
+			   "description": "",
 			   "id": 109482014,
 			   "lat": 33.49764373849864,
 			   "lng": -111.99972786722921,
 			   "icon": "poi",
-			   "style": ""
+			   "style": { "display": "none" }
 			 }, 
 		   "totalTime": 41.35,
 		   "distance": 4.20,
@@ -32,12 +33,13 @@
 	{
 		   "name": "Roxanna Malcom",
 		   "marker": { 
-			   "name": "<p>Roxanna Malcom</p>",
+			   "name": "Roxanna Malcom",
+			   "description": "",
 			   "id": 109482013,
 			   "lat": 33.42257647524129,
 			   "lng": -111.942319671287,
 			   "icon": "poi",
-			   "style": ""
+			   "style": { "display": "none" }
 			 }, 
 		   "totalTime": 34.07,
 		   "distance": 4.21,
@@ -46,12 +48,13 @@
 	{
 		   "name": "Colin Trenton",
 		   "marker": { 
-			   "name": "<p>Colin Trenton</p>",
+			   "name": "Colin Trenton",
+			   "description": "",
 			   "id": 109482012,
 			   "lat": 33.49764373849864,
 			   "lng": -111.99972786722921,
 			   "icon": "poi",
-			   "style": ""
+			   "style": { "display": "none" }
 			 }, 
 		   "totalTime": 35.40,
 		   "distance": 4.20,
@@ -60,12 +63,13 @@
 	{
 		   "name": "Julie Garcia",
 		   "marker": { 
-			   "name": "<p>Julie Garcia</p>",
+			   "name": "Julie Garcia",
+			   "description": "",
 			   "id": 109482011,
 			   "lat": 33.43228204273034,
 			   "lng": -111.94958755231232,
 			   "icon": "poi",
-			   "style": ""
+			   "style": { "display": "none" }
 			 }, 
 		   "totalTime": 36.51,
 		   "distance": 4.23,

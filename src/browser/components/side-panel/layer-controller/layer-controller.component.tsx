@@ -18,19 +18,23 @@ export interface StateProps {
 	activePano: Pano | null,
 }
 
+export interface DispatchProps {
+	setDisplayMarkersList: (markers: PTRMarker[] | null) => void;
+	setActiveLayer: (layer:ApiLayer) => void;
+}
 export interface ControllerLayer {
 	layer:PTRLayer,
 	active:boolean,
 	canDisable:boolean,
 }
 
-export interface LayerControllerProps extends StateProps {
+export interface LayerControllerProps extends StateProps, DispatchProps {
 	togglePanel: () => void;
 	panelOpen: boolean;
 };
 
 const LayerController = (props:LayerControllerProps) => {
-	const { layers, markers, AS, togglePanel, panelOpen, virtualRunners } = props;
+	const { layers, markers, AS, togglePanel, setDisplayMarkersList, panelOpen, virtualRunners, setActiveLayer } = props;
 	const [controllerLayers, setControllerLayers] = React.useState<ControllerLayer[] | null>(null);
 	const [virtualRunnerLayer, setVirtualRunnerLayer] = React.useState<ApiLayer | null>(null);
 	const [showForm, setShowForm] = React.useState<boolean>(false);
@@ -40,9 +44,10 @@ const LayerController = (props:LayerControllerProps) => {
 			const virtualRunnerLayerTemp:ApiLayer = {
 				name: 'Virtual Runners',
 				visible: false,
-				markers: virtualRunners.map((vrRunner:PTRVirtualRunner) => {
+				markers: virtualRunners.map((vrRunner:PTRVirtualRunner, index:number) => {
 					return {
 						...vrRunner.marker,
+						id: "Virtual Runners_"+index,
 					} as PTRMarker
 				})
 			};
@@ -54,11 +59,13 @@ const LayerController = (props:LayerControllerProps) => {
 					canDisable: false
 				} as ControllerLayer;
 			})]);
+			
 		}
 	}, [layers, markers, virtualRunners]);
 
 	React.useEffect(() => {
 		if(controllerLayers && controllerLayers.length){
+		
 			(async () => {
 					const layer = await AS?.getLayer(controllerLayers[0].layer.name);
 					if(!layer && !layersLoaded){
@@ -71,22 +78,35 @@ const LayerController = (props:LayerControllerProps) => {
 									markers: controllerLayer.layer.markers.map(
 										(marker:number) => {
 											const foundMarker = markers?.find((m:PTRMarker) => { return m.id === marker});
-											return foundMarker;
+											
+											return {...foundMarker, id: `${controllerLayer.layer.name}_${marker}`} as PTRMarker;
 										}).filter((marker:PTRMarker | undefined) => !!marker) as ApiMarker[]
 							} as ApiLayer }), ...[vrLayer]].filter(item => !!item) as ApiLayer[];
 	
 						AS?.sendData({layers: setLayers});
+						const ptrLayer = controllerLayers.find((cL:ControllerLayer) => { return cL.layer.name === "Feature Race"});
+						if(ptrLayer) {
+							setActiveLayer({name: ptrLayer.layer.name, visible: !!ptrLayer.layer.visible, markers: ptrLayer.layer.markers.map((marker:number) => {
+								const foundMarker = markers?.find((m:PTRMarker) => { return m.id === marker});
+								
+								return {...foundMarker, id: `${ptrLayer.layer.name}_${marker}`} as PTRMarker;
+							}).filter((marker:PTRMarker | undefined) => !!marker) as ApiMarker[]});
+							const displayMarkers = markers?.filter((m:PTRMarker) => { return ptrLayer.layer.markers.includes(m.id as number)});
+							if(displayMarkers){
+								setDisplayMarkersList(displayMarkers);
+							}
+						}
 						setTimeout(() => {
 							AS?.lookAt(108.7975010654751, 133.98772698064278);
 							AS?.setZoom(0.6840800980278313);
-							AS?.setFovRange(10, 140);	}, 500);
+							AS?.setFovRange(10, 160);}, 400);	
 					}
 					else if(!layersLoaded) {
 						setLayersLoaded(true);
 					}
 			})();
 		}
-	}, [controllerLayers, AS, markers, virtualRunners, layersLoaded, setLayersLoaded, virtualRunnerLayer]);
+	}, [controllerLayers, AS, markers, virtualRunners, layersLoaded, setLayersLoaded, virtualRunnerLayer, setActiveLayer, setDisplayMarkersList]);
 
 
 	const toggleLayers = async (layerID:string) => {
@@ -109,6 +129,11 @@ const LayerController = (props:LayerControllerProps) => {
 				}
 			})]);
 			}
+			const markerList = markers?.filter((m:PTRMarker) => { return controllerLayers?.find((l:ControllerLayer) => { return l.layer.name === layerID})?.layer?.markers.includes(m.id as number) });
+			setDisplayMarkersList(null);
+			setActiveLayer(layer);
+			setDisplayMarkersList(markerList?.filter((m:PTRMarker | undefined) =>{ return !!m}) ?? [] as PTRMarker[]);
+			
 		}
 	}
 
@@ -121,6 +146,10 @@ const LayerController = (props:LayerControllerProps) => {
 			});
 			AS?.setLayerVisibility('Virtual Runners',true);
 			setShowForm(true);
+			setDisplayMarkersList(null);
+			setActiveLayer(layer);
+			const markersList = virtualRunners?.map((vR:PTRVirtualRunner) => {return vR.marker});
+			setDisplayMarkersList(markersList?.filter((m:PTRMarker | undefined) =>{ return !!m}) ?? [] as PTRMarker[]);
 		}
 	}
 	const getIconFromName = (name:string) => {

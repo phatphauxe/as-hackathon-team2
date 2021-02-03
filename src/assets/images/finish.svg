@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.0021 2H2.00208V11H11.0021V2Z" fill="black"/>
+<path d="M20.0021 2H11.0021V11H20.0021V2Z" fill="white"/>
+<path d="M29.0021 2H20.0021V11H29.0021V2Z" fill="black"/>
+<path d="M38.0021 2H29.0021V11H38.0021V2Z" fill="white"/>
+<path d="M29 20.0007H38V11.0007L29 11.0007V20.0007Z" fill="black"/>
+<path d="M20 20.0007H29V11.0007L20 11.0007V20.0007Z" fill="white"/>
+<path d="M11 20.0007H20V11.0007L11 11.0007L11 20.0007Z" fill="black"/>
+<path d="M2 20.0007H11L11 11.0007L2 11.0007L2 20.0007Z" fill="white"/>
+<path d="M11.0021 20H2.00208V29H11.0021V20Z" fill="black"/>
+<path d="M20.0021 20H11.0021V29H20.0021V20Z" fill="white"/>
+<path d="M29.0021 20H20.0021V29H29.0021V20Z" fill="black"/>
+<path d="M38.0021 20H29.0021V29H38.0021V20Z" fill="white"/>
+<path d="M29 38.0007H38V29.0007H29V38.0007Z" fill="black"/>
+<path d="M20 38.0007H29V29.0007H20V38.0007Z" fill="white"/>
+<path d="M11 38.0007H20V29.0007H11L11 38.0007Z" fill="black"/>
+<path d="M2 38.0007H11L11 29.0007H2L2 38.0007Z" fill="white"/>
+</svg>

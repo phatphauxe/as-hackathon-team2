@@ -10,6 +10,7 @@ const mapStateToProps = (state:State):StateProps => {
 	return {
 		appLoaded: Selectors.App.selectAppLoaded(state),
 		AS: Selectors.AS.selectAerialSphere(state),
+		activeMarker: Selectors.PTR.selectActiveMarker(state),
 	}
 }
 
@@ -23,7 +24,14 @@ const mapDispatchToProps = (dispatch: (action:Action) => void):DispatchProps => 
 		},
 		setActivePano: (activePano:Pano) => {
 			dispatch(ActionModels.PTR.setActivePano(activePano))
+		},
+		setActiveMarker: (markerId:string | null) => {
+			dispatch(ActionModels.PTR.setActiveMarker(markerId));
+		},
+		setShowMarkerList: (visible:boolean) => {
+			dispatch(ActionModels.PTR.setShowMarkerList(visible));
 		}
+
 	}
 }
 

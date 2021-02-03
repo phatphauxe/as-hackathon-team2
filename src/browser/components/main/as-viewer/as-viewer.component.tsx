@@ -1,19 +1,21 @@
 import React from 'react';
-import {AS, Pano, SphereData } from '../../../../assets/models';
-import {getRequest, loadViewer} from '../../../../content/http';
+import {AS, OnClickResponse, OnMarkerClickResponse, OnViewChangeResponse, Pano, SphereData } from '../../../../assets/models';
+import {loadViewer} from '../../../../content/http';
 import { ViewerENV } from '../../../../content/http/loadViewer/loadViewer';
-import { selectActivePano } from '../../../../content/store/selectors/ptrData.selector';
 import './as-viewer.styles.scss';
 
 export interface StateProps {
 	appLoaded: boolean,
 	AS: AS | null;
+	activeMarker: string | null;
 }
 
 export interface DispatchProps {
 	setAerialSphere: (aerialSphere:AS) => void;
 	setAppLoaded: () => void;
 	setActivePano: (activePano:Pano) => void;
+	setActiveMarker: (markerId:string | null) => void;
+	setShowMarkerList: (visible:boolean) => void;
 }
 
 export type ASViewerProps = StateProps & DispatchProps;
@@ -25,9 +27,10 @@ declare global {
 
 /// This loads the viewer and provides access to the AerialSphere api
 const ASViewer = (props:ASViewerProps) => {
-	const { AS, appLoaded, setAerialSphere, setAppLoaded, setActivePano } = props;
+	const { AS, appLoaded, activeMarker, setAerialSphere, setAppLoaded, setActivePano, setActiveMarker, setShowMarkerList } = props;
 	
 	React.useEffect(() => {
+		
 		if(appLoaded){
 			const aerialSphere = new AerialSphere('as-viewer', 'aerial-sphere-container', {});
 			setAerialSphere(aerialSphere);
@@ -41,21 +44,30 @@ const ASViewer = (props:ASViewerProps) => {
 	React.useEffect(() => {
 		if(AS){
 			AS.openPanoramaById(15184);
-			(async () => { 
-				setActivePano(await AS.getActivePano())
-				AS.lookAt(108.7975010654751, 133.98772698064278);
-				AS.setZoom(0.6840800980278313);
-				
+			(async () => {
+				const activePano = await AS.getActivePano();
+				setActivePano(activePano)
+				AS.onClick(async (response:OnClickResponse) => {
+					const activePano = await AS.getActivePano();
+					if(activePano.id !== 15184){
+						AS.openPanoramaById(15184);
+					}
+				})
 			})()
 			AS.setWidgetEnabled(["fullScreen", "help", "info", "view_toggle", "navigation"], false);
 			
 			
-			
-			
+			// AS.onViewChange((response:OnViewChangeResponse) => {
+			// 	switch(response.eventName){
+			// 		case "wake": setShowMarkerList(false); break;
+			// 		case "sleep": setShowMarkerList(true); break;
+			// 		default: return;
+			// 	}
+			// });
 		}
 	}, [AS]);
 	return (
-		<div id={'as-viewer'} className={'aerial-sphere-container'} />
+		<div id={'as-viewer'} className={'aerial-sphere-container'}/>
 	);
 }
 
